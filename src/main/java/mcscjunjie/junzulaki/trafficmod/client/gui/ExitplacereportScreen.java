@@ -40,7 +40,7 @@ public class ExitplacereportScreen extends AbstractContainerScreen<Exitplacerepo
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		placebname.render(guiGraphics, mouseX, mouseY, partialTicks);
 		placeaname.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -77,10 +77,6 @@ public class ExitplacereportScreen extends AbstractContainerScreen<Exitplacerepo
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		placebname.tick();
-		placeaname.tick();
-		placeapinyin.tick();
-		placebpinyin.tick();
 	}
 
 	@Override

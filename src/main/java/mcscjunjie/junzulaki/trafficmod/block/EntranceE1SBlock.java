@@ -1,7 +1,6 @@
 
 package mcscjunjie.junzulaki.trafficmod.block;
 
-import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -40,6 +39,8 @@ import mcscjunjie.junzulaki.trafficmod.world.inventory.ExpwyEntranceS1Menu;
 import mcscjunjie.junzulaki.trafficmod.block.entity.EntranceE1SBlockEntity;
 
 import io.netty.buffer.Unpooled;
+import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.item.ItemStack;
 
 public class EntranceE1SBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -94,10 +95,10 @@ public class EntranceE1SBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
-		super.use(blockstate, world, pos, entity, hand, hit);
+	protected InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player entity, BlockHitResult hit) {
+		super.useWithoutItem(blockstate, world, pos, entity, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openScreen(player, new MenuProvider() {
+			player.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
 					return Component.literal("高速公路入口 顶 省级高速");
@@ -105,12 +106,20 @@ public class EntranceE1SBlock extends Block implements EntityBlock {
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new ExpwyEntranceS1Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new ExpwyEntranceS1Menu(id, inventory, pos);
 				}
-			}, pos);
+			}, buf -> buf.writeBlockPos(pos));
 		}
 		return InteractionResult.SUCCESS;
 	}
+
+	@Override
+	protected ItemInteractionResult useItemOn(ItemStack heldItem, BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
+		if (useWithoutItem(blockstate, world, pos, entity, hit) == InteractionResult.SUCCESS)
+			return ItemInteractionResult.sidedSuccess(world.isClientSide);
+		return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
+	}
+
 
 	@Override
 	public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {

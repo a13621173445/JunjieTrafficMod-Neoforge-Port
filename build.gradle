@@ -1,57 +1,60 @@
 plugins {
-    id 'eclipse'
-    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.78'
 }
 
-version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+version = '1.0.3'
+group = 'mcscjunjie.junzulaki.trafficmod'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+base {
+    archivesName = 'junjietrafficmod'
+}
 
-minecraft {
-    mappings channel: 'official', version: '1.20.1'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
 
-    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
-
-    copyIdeResources = true
+neoForge {
+    version = '21.1.255'
 
     runs {
         client {
-            workingDirectory project.file('run')
-
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-
-            mods {
-                examplemod {
-                    source sourceSets.main
-                }
-            }
+            client()
         }
-
         server {
-            workingDirectory project.file('run')
+            server()
+        }
+        data {
+            data()
+        }
+    }
 
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-
-            mods {
-                examplemod {
-                    source sourceSets.main
-                }
-            }
+    mods {
+        junjietrafficmod {
+            sourceSet sourceSets.main
         }
     }
 }
 
-dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
-}
-
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    options.encoding = 'UTF-8'
+    options.compilerArgs.addAll(['-Xmaxerrs', '3000', '-Xmaxwarns', '0'])
 }
 
-apply from: 'mcreator.gradle'
-
+tasks.register('dumpClasspath') {
+    doLast {
+        def cp = sourceSets.main.compileClasspath.files.findAll { it.name.endsWith('.jar') && it.exists() }
+        new File(rootProject.projectDir, 'cp.txt').text = cp.join(File.pathSeparator)
+        def out = new File(rootProject.projectDir, 'cp-index.txt')
+        out.text = ''
+        cp.each { f ->
+            zipTree(f).matching { include '**/*.class' }.each { e ->
+                def name = e.toString().substring(f.toString().length() + 1)
+                out << name.replace('.class', '').replace('/', '.') + '\n'
+            }
+        }
+        println "WROTE cp.txt(${cp.size()} jars) cp-index.txt entries=${out.readLines().size()}"
+    }
+}

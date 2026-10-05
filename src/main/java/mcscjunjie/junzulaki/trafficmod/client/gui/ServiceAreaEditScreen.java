@@ -38,7 +38,7 @@ public class ServiceAreaEditScreen extends AbstractContainerScreen<ServiceAreaEd
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		pinyin.render(guiGraphics, mouseX, mouseY, partialTicks);
 		surviceareaname.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -69,8 +69,6 @@ public class ServiceAreaEditScreen extends AbstractContainerScreen<ServiceAreaEd
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		pinyin.tick();
-		surviceareaname.tick();
 	}
 
 	@Override

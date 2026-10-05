@@ -48,7 +48,7 @@ public class ExpwyExportReportEditScreen extends AbstractContainerScreen<ExpwyEx
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		exitnumber1.render(guiGraphics, mouseX, mouseY, partialTicks);
 		exitnumber2.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -109,18 +109,6 @@ public class ExpwyExportReportEditScreen extends AbstractContainerScreen<ExpwyEx
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		exitnumber1.tick();
-		exitnumber2.tick();
-		exitnumber3.tick();
-		exportname1.tick();
-		exportname2.tick();
-		exportname3.tick();
-		distance1.tick();
-		distance2.tick();
-		distance3.tick();
-		expwynumber.tick();
-		branchnumber.tick();
-		expwyname.tick();
 	}
 
 	@Override

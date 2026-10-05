@@ -1,8 +1,8 @@
 
 package mcscjunjie.junzulaki.trafficmod.world.inventory;
 
-import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.items.IItemHandler;
+import net.neoforged.neoforge.items.ItemStackHandler;
+import net.neoforged.neoforge.items.IItemHandler;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -21,6 +21,7 @@ import mcscjunjie.junzulaki.trafficmod.init.JunjietrafficmodModMenus;
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
+import net.minecraft.network.RegistryFriendlyByteBuf;
 
 public class PlaceReportMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
@@ -35,14 +36,16 @@ public class PlaceReportMenu extends AbstractContainerMenu implements Supplier<M
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public PlaceReportMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+	public PlaceReportMenu(int id, Inventory inv, RegistryFriendlyByteBuf extraData) {
+		this(id, inv, extraData != null && extraData.isReadable() ? extraData.readBlockPos() : null);
+	}
+
+	public PlaceReportMenu(int id, Inventory inv, BlockPos pos) {
 		super(JunjietrafficmodModMenus.PLACE_REPORT.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);
-		BlockPos pos = null;
-		if (extraData != null) {
-			pos = extraData.readBlockPos();
+		if (pos != null) {
 			this.x = pos.getX();
 			this.y = pos.getY();
 			this.z = pos.getZ();

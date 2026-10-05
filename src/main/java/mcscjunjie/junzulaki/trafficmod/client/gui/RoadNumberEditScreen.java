@@ -37,7 +37,7 @@ public class RoadNumberEditScreen extends AbstractContainerScreen<RoadNumberEdit
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		roadnumber.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -65,7 +65,6 @@ public class RoadNumberEditScreen extends AbstractContainerScreen<RoadNumberEdit
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		roadnumber.tick();
 	}
 
 	@Override
@@ -88,8 +87,8 @@ public class RoadNumberEditScreen extends AbstractContainerScreen<RoadNumberEdit
 			}
 
 			@Override
-			public void moveCursorTo(int pos) {
-				super.moveCursorTo(pos);
+			public void moveCursorTo(int pos, boolean updateCursorCounter) {
+				super.moveCursorTo(pos, updateCursorCounter);
 				if (getValue().isEmpty())
 					setSuggestion(Component.translatable("gui.junjietrafficmod.road_number_edit.roadnumber").getString());
 				else

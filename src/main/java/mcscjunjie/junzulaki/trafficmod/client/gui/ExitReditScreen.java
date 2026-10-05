@@ -38,7 +38,7 @@ public class ExitReditScreen extends AbstractContainerScreen<ExitReditMenu> {
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		exportname.render(guiGraphics, mouseX, mouseY, partialTicks);
 		roadname.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -69,8 +69,6 @@ public class ExitReditScreen extends AbstractContainerScreen<ExitReditMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		exportname.tick();
-		roadname.tick();
 	}
 
 	@Override
@@ -94,8 +92,8 @@ public class ExitReditScreen extends AbstractContainerScreen<ExitReditMenu> {
 			}
 
 			@Override
-			public void moveCursorTo(int pos) {
-				super.moveCursorTo(pos);
+			public void moveCursorTo(int pos, boolean updateCursorCounter) {
+				super.moveCursorTo(pos, updateCursorCounter);
 				if (getValue().isEmpty())
 					setSuggestion(Component.translatable("gui.junjietrafficmod.exit_redit.exportname").getString());
 				else
@@ -118,8 +116,8 @@ public class ExitReditScreen extends AbstractContainerScreen<ExitReditMenu> {
 			}
 
 			@Override
-			public void moveCursorTo(int pos) {
-				super.moveCursorTo(pos);
+			public void moveCursorTo(int pos, boolean updateCursorCounter) {
+				super.moveCursorTo(pos, updateCursorCounter);
 				if (getValue().isEmpty())
 					setSuggestion(Component.translatable("gui.junjietrafficmod.exit_redit.roadname").getString());
 				else

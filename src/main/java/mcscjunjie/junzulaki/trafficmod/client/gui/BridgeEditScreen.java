@@ -39,7 +39,7 @@ public class BridgeEditScreen extends AbstractContainerScreen<BridgeEditMenu> {
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		pinyin.render(guiGraphics, mouseX, mouseY, partialTicks);
 		length.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -73,9 +73,6 @@ public class BridgeEditScreen extends AbstractContainerScreen<BridgeEditMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		pinyin.tick();
-		length.tick();
-		bridgename.tick();
 	}
 
 	@Override

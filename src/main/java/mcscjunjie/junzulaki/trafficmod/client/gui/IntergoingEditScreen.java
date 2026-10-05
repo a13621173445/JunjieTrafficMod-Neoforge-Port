@@ -45,7 +45,7 @@ public class IntergoingEditScreen extends AbstractContainerScreen<IntergoingEdit
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		expwynumber.render(guiGraphics, mouseX, mouseY, partialTicks);
 		province.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -88,12 +88,6 @@ public class IntergoingEditScreen extends AbstractContainerScreen<IntergoingEdit
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		expwynumber.tick();
-		province.tick();
-		direction.tick();
-		distance.tick();
-		firstline.tick();
-		secondline.tick();
 	}
 
 	@Override

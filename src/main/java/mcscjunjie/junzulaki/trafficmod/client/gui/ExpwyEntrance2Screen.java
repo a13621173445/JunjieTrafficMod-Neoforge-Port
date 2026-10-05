@@ -37,7 +37,7 @@ public class ExpwyEntrance2Screen extends AbstractContainerScreen<ExpwyEntrance2
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		stardandend.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -65,7 +65,6 @@ public class ExpwyEntrance2Screen extends AbstractContainerScreen<ExpwyEntrance2
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		stardandend.tick();
 	}
 
 	@Override

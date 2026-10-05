@@ -38,7 +38,7 @@ public class TunnelEditScreen extends AbstractContainerScreen<TunnelEditMenu> {
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		length.render(guiGraphics, mouseX, mouseY, partialTicks);
 		tunnelname.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -69,8 +69,6 @@ public class TunnelEditScreen extends AbstractContainerScreen<TunnelEditMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		length.tick();
-		tunnelname.tick();
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class GantryExpwySEditScreen extends AbstractContainerScreen<GantryExpwyS
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		expwyname.render(guiGraphics, mouseX, mouseY, partialTicks);
 		expwynumber.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -73,9 +73,6 @@ public class GantryExpwySEditScreen extends AbstractContainerScreen<GantryExpwyS
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		expwyname.tick();
-		expwynumber.tick();
-		province.tick();
 	}
 
 	@Override

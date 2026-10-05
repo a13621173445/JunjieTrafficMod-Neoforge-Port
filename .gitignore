@@ -1,0 +1,22 @@
+# Gradle / 构建产物
+build/
+.gradle/
+out/
+bin/
+run/
+
+# 本地诊断文件
+cp.txt
+cp-index.txt
+
+# IDE（仅根目录，legacy 目录内的 MCreator 文件不受影响）
+/.classpath
+/.project
+/.settings/
+.idea/
+*.iml
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db

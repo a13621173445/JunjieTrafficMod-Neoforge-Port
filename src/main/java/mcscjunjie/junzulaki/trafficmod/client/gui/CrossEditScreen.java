@@ -52,7 +52,7 @@ public class CrossEditScreen extends AbstractContainerScreen<CrossEditMenu> {
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		nameoftheroad.render(guiGraphics, mouseX, mouseY, partialTicks);
 		leftleadroad.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -110,17 +110,6 @@ public class CrossEditScreen extends AbstractContainerScreen<CrossEditMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		nameoftheroad.tick();
-		leftleadroad.tick();
-		leftroadpinyin.tick();
-		leftroaddistance.tick();
-		straightroaddistance.tick();
-		straightleadroad.tick();
-		straightroadpinyin.tick();
-		rightleadroad.tick();
-		rightroadpinyin.tick();
-		rightroaddistance.tick();
-		direction.tick();
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class StrictRoadEditScreen extends AbstractContainerScreen<StrictRoadEdit
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		roadsection.render(guiGraphics, mouseX, mouseY, partialTicks);
 		roadname.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -69,8 +69,6 @@ public class StrictRoadEditScreen extends AbstractContainerScreen<StrictRoadEdit
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		roadsection.tick();
-		roadname.tick();
 	}
 
 	@Override

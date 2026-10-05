@@ -3,16 +3,12 @@ package mcscjunjie.junzulaki.trafficmod;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.network.simple.SimpleChannel;
-import net.minecraftforge.network.NetworkRegistry;
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.util.thread.SidedThreadGroups;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
+import net.neoforged.fml.util.thread.SidedThreadGroups;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.event.tick.ServerTickEvent;
+import net.neoforged.neoforge.common.NeoForge;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -37,25 +33,24 @@ public class JunjietrafficmodMod {
 	public static final Logger LOGGER = LogManager.getLogger(JunjietrafficmodMod.class);
 	public static final String MODID = "junjietrafficmod";
 
-	public JunjietrafficmodMod() {
+	public JunjietrafficmodMod(IEventBus bus) {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
-		MinecraftForge.EVENT_BUS.register(this);
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		NeoForge.EVENT_BUS.register(this);
 		JunjietrafficmodModBlocks.REGISTRY.register(bus);
 		JunjietrafficmodModBlockEntities.REGISTRY.register(bus);
 		JunjietrafficmodModItems.REGISTRY.register(bus);
 		JunjietrafficmodModTabs.REGISTRY.register(bus);
 		JunjietrafficmodModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
-		if (net.minecraftforge.fml.loading.FMLEnvironment.dist == net.minecraftforge.api.distmarker.Dist.CLIENT) {
+		if (net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT) {
 			bus.addListener(this::registerEntityRenderers);
 		}
 		// End of user code block mod init
 	}
 
 	// Start of user code block mod methods
-	private void registerEntityRenderers(net.minecraftforge.client.event.EntityRenderersEvent.RegisterRenderers event) {
+	private void registerEntityRenderers(net.neoforged.neoforge.client.event.EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(JunjietrafficmodModBlockEntities.INTERCHANGE_1KM.get(), TextEngine.SignLineRenderer::new);
 		event.registerBlockEntityRenderer(JunjietrafficmodModBlockEntities.INTERCHANGE_2KM.get(), TextEngine.SignLineRenderer::new);
 		event.registerBlockEntityRenderer(JunjietrafficmodModBlockEntities.EXITG.get(), TextEngine.SignLineRenderer::new);
@@ -118,14 +113,6 @@ public class JunjietrafficmodMod {
 	}
 
 	// End of user code block mod methods
-	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
-	private static int messageID = 0;
-
-	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
-		messageID++;
-	}
 
 	private static final Collection<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ConcurrentLinkedQueue<>();
 
@@ -135,16 +122,14 @@ public class JunjietrafficmodMod {
 	}
 
 	@SubscribeEvent
-	public void tick(TickEvent.ServerTickEvent event) {
-		if (event.phase == TickEvent.Phase.END) {
-			List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
-			workQueue.forEach(work -> {
-				work.setValue(work.getValue() - 1);
-				if (work.getValue() == 0)
-					actions.add(work);
-			});
-			actions.forEach(e -> e.getKey().run());
-			workQueue.removeAll(actions);
-		}
+	public void tick(ServerTickEvent.Post event) {
+		List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
+		workQueue.forEach(work -> {
+			work.setValue(work.getValue() - 1);
+			if (work.getValue() == 0)
+				actions.add(work);
+		});
+		actions.forEach(e -> e.getKey().run());
+		workQueue.removeAll(actions);
 	}
 }

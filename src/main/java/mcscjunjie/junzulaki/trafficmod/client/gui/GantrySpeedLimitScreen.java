@@ -38,7 +38,7 @@ public class GantrySpeedLimitScreen extends AbstractContainerScreen<GantrySpeedL
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		minimumspeed.render(guiGraphics, mouseX, mouseY, partialTicks);
 		maximumspeed.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -69,8 +69,6 @@ public class GantrySpeedLimitScreen extends AbstractContainerScreen<GantrySpeedL
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		minimumspeed.tick();
-		maximumspeed.tick();
 	}
 
 	@Override

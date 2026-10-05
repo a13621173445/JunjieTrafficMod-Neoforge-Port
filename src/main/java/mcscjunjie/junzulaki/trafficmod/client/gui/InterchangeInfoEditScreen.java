@@ -39,7 +39,7 @@ public class InterchangeInfoEditScreen extends AbstractContainerScreen<Interchan
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		exporta.render(guiGraphics, mouseX, mouseY, partialTicks);
 		straight.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -73,9 +73,6 @@ public class InterchangeInfoEditScreen extends AbstractContainerScreen<Interchan
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		exporta.tick();
-		straight.tick();
-		exportb.tick();
 	}
 
 	@Override

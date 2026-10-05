@@ -1,11 +1,18 @@
 package mcscjunjie.junzulaki.trafficmod;
 
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
+
+import net.neoforged.neoforge.network.PacketDistributor;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -25,6 +32,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.Style;
 import net.minecraft.world.phys.Vec3;
@@ -90,8 +98,10 @@ import mcscjunjie.junzulaki.trafficmod.block.GantrySInterLeftBlock;
 import mcscjunjie.junzulaki.trafficmod.block.StrictRoad2Block;
 
 import java.util.function.Supplier;
+import net.neoforged.fml.common.EventBusSubscriber;
+import mcscjunjie.junzulaki.trafficmod.JunjietrafficmodMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = JunjietrafficmodMod.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class TextEngine {
 
 	public static final String SIGN_TEXT_NBT_KEY = "SignText";
@@ -385,23 +395,22 @@ public class TextEngine {
 	}
 
 	@SubscribeEvent
-	public static void onCommonSetup(FMLCommonSetupEvent event) {
-		event.enqueueWork(() -> JunjietrafficmodMod.addNetworkMessage(
-				SaveSignTextMessage.class,
-				SaveSignTextMessage::encode,
-				SaveSignTextMessage::decode,
-				SaveSignTextMessage::handle));
+	public static void onRegisterPayloads(RegisterPayloadHandlersEvent event) {
+		event.registrar(JunjietrafficmodMod.MODID).versioned(PROTOCOL_VERSION).optional()
+				.playToServer(SaveSignTextMessage.TYPE, SaveSignTextMessage.STREAM_CODEC, SaveSignTextMessage::handle);
 	}
 
 	public static void onEditButtonPressed(int x, int y, int z, String text) {
 		onEditButtonPressed(x, y, z, 1, text);
 	}
 
+	public static final String PROTOCOL_VERSION = "1";
+
 	public static void onEditButtonPressed(int x, int y, int z, int line, String text) {
 		String safe = text == null ? "" : text.trim();
 		if (safe.length() > MAX_TEXT_LENGTH)
 			safe = safe.substring(0, MAX_TEXT_LENGTH);
-		JunjietrafficmodMod.PACKET_HANDLER.sendToServer(new SaveSignTextMessage(new BlockPos(x, y, z), line, safe));
+		PacketDistributor.sendToServer(new SaveSignTextMessage(new BlockPos(x, y, z), line, safe));
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -425,49 +434,43 @@ public class TextEngine {
 		return line == 0 ? SIGN_TEXT_NBT_KEY + "Direction" : SIGN_TEXT_NBT_KEY + line;
 	}
 
-	public static class SaveSignTextMessage {
-		public final BlockPos pos;
-		public final int line;
-		public final String text;
+	public record SaveSignTextMessage(BlockPos pos, int line, String text) implements CustomPacketPayload {
+		public static final CustomPacketPayload.Type<SaveSignTextMessage> TYPE = new CustomPacketPayload.Type<>(
+				ResourceLocation.fromNamespaceAndPath(JunjietrafficmodMod.MODID, "save_sign_text"));
 
-		public SaveSignTextMessage(BlockPos pos, int line, String text) {
-			this.pos = pos;
-			this.line = line;
-			this.text = text;
+		public static final StreamCodec<RegistryFriendlyByteBuf, SaveSignTextMessage> STREAM_CODEC = StreamCodec.of(
+				(buf, msg) -> {
+					buf.writeBlockPos(msg.pos());
+					buf.writeVarInt(msg.line());
+					buf.writeUtf(msg.text(), MAX_TEXT_LENGTH);
+				},
+				buf -> new SaveSignTextMessage(buf.readBlockPos(), buf.readVarInt(), buf.readUtf(MAX_TEXT_LENGTH)));
+
+		@Override
+		public Type<? extends CustomPacketPayload> type() {
+			return TYPE;
 		}
 
-		public static void encode(SaveSignTextMessage msg, FriendlyByteBuf buf) {
-			buf.writeBlockPos(msg.pos);
-			buf.writeVarInt(msg.line);
-			buf.writeUtf(msg.text, MAX_TEXT_LENGTH);
-		}
-
-		public static SaveSignTextMessage decode(FriendlyByteBuf buf) {
-			return new SaveSignTextMessage(buf.readBlockPos(), buf.readVarInt(), buf.readUtf(MAX_TEXT_LENGTH));
-		}
-
-		public static void handle(SaveSignTextMessage msg, Supplier<NetworkEvent.Context> ctx) {
-			ctx.get().enqueueWork(() -> {
-				ServerPlayer player = ctx.get().getSender();
-				if (player == null)
+		public static void handle(SaveSignTextMessage msg, IPayloadContext ctx) {
+			ctx.enqueueWork(() -> {
+				if (!(ctx.player() instanceof ServerPlayer player))
 					return;
 				Level level = player.level();
-				BlockPos pos = msg.pos;
+				BlockPos pos = msg.pos();
 				if (player.distanceToSqr(pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D) > MAX_EDIT_DISTANCE_SQR)
 					return;
 				BlockEntity blockEntity = level.getBlockEntity(pos);
 				if (blockEntity == null)
 					return;
-				int line = Math.max(0, Math.min(MAX_SIGN_LINE, msg.line));
-			blockEntity.getPersistentData().putString(crossNbtKey(line), msg.text);
-			blockEntity.setChanged();
+				int line = Math.max(0, Math.min(MAX_SIGN_LINE, msg.line()));
+				blockEntity.getPersistentData().putString(crossNbtKey(line), msg.text());
+				blockEntity.setChanged();
 				if (level instanceof ServerLevel serverLevel) {
 					ClientboundBlockEntityDataPacket packet = ClientboundBlockEntityDataPacket.create(blockEntity);
 					for (ServerPlayer viewer : serverLevel.getChunkSource().chunkMap.getPlayers(new ChunkPos(pos), false))
 						viewer.connection.send(packet);
 				}
 			});
-			ctx.get().setPacketHandled(true);
 		}
 	}
 

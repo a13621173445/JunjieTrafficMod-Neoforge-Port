@@ -37,7 +37,7 @@ public class Fwq21EditScreen extends AbstractContainerScreen<Fwq21EditMenu> {
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		fwqname.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -65,7 +65,6 @@ public class Fwq21EditScreen extends AbstractContainerScreen<Fwq21EditMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		fwqname.tick();
 	}
 
 	@Override

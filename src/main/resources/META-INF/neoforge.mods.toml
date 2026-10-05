@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[3,)"
+license="All Rights Reserved"
+issueTrackerURL="https://space.bilibili.com/3493092063709904"
+
+[[mods]]
+modId="junjietrafficmod"
+version="1.0.3"
+displayName="Junjie的交通模组"
+displayURL="https://space.bilibili.com/3493092063709904"
+logoFile="logo.png"
+credits="JunZulaki制作。模组使用工具MCreator制作（Created using mod maker MCreator） - https://mcreator.net/about"
+authors="JunZulaki（可前往Bilibili搜索）, MCreator"
+description="中国式交通标志牌模组，由Bilibili的JunZulaki制作（NeoForge 1.21.1 移植版）"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.junjietrafficmod]]
+    modId="neoforge"
+    type="REQUIRED"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.junjietrafficmod]]
+    modId="minecraft"
+    type="REQUIRED"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"

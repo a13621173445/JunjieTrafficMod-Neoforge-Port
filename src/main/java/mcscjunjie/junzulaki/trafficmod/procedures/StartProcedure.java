@@ -1,13 +1,15 @@
 package mcscjunjie.junzulaki.trafficmod.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.Event;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
 import javax.annotation.Nullable;
+import net.neoforged.fml.common.EventBusSubscriber;
+import mcscjunjie.junzulaki.trafficmod.JunjietrafficmodMod;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber(modid = JunjietrafficmodMod.MODID)
 public class StartProcedure {
 	@SubscribeEvent
 	public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {

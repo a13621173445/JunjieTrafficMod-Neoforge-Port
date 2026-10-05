@@ -4,8 +4,8 @@
  */
 package mcscjunjie.junzulaki.trafficmod.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
@@ -17,7 +17,7 @@ import mcscjunjie.junzulaki.trafficmod.JunjietrafficmodMod;
 
 public class JunjietrafficmodModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JunjietrafficmodMod.MODID);
-	public static final RegistryObject<CreativeModeTab> TLIGHT = REGISTRY.register("tlight",
+	public static final DeferredHolder<CreativeModeTab, ? extends CreativeModeTab> TLIGHT = REGISTRY.register("tlight",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.junjietrafficmod.tlight")).icon(() -> new ItemStack(Blocks.MAGENTA_GLAZED_TERRACOTTA)).displayItems((parameters, tabData) -> {
 				tabData.accept(JunjietrafficmodModBlocks.TLIGHT_1.get().asItem());
 				tabData.accept(JunjietrafficmodModBlocks.TLIGHT_2.get().asItem());
