@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "tip6": "tip6"
+      },
+      "name": "default"
+    }
+  }
+}

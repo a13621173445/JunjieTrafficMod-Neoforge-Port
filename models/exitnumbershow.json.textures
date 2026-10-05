@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "2": "exitnumbershow",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

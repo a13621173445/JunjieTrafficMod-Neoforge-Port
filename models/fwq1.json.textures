@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "fwq1": "fwq1",
+        "pillarwhite": "pillarwhite",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "tollgate500m": "tollgate500m",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,4497 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tlight",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tlight1",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight1Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_1.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "Tlight2",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight2Block.java"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "Tlight3",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_3.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_3.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_3.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "Tlight4",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_4",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight4Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_4.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_4.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "Bassblue",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bassblue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/bassblue.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/bassblue.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/bassblue.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/bassblue.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/BassblueBlock.java"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Basswhite",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basswhite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/basswhite.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/BasswhiteBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/basswhite.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/basswhite.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/basswhite.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Pillarblue",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillarblue",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/PillarblueBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/pillarblue.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/pillarblue.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/pillarblue.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/pillarblue.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Pillarwhite",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillarwhite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/pillarwhite.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/pillarwhite.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/pillarwhite.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/pillarwhite.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/PillarwhiteBlock.java"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Hordrivetiredly",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordrivetiredly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/hordrivetiredly.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/hordrivetiredly.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/HordrivetiredlyBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/hordrivetiredly.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/hordrivetiredly.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Horrearend",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horrearend",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/HorrearendBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/horrearend.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/horrearend.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/horrearend.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/horrearend.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Horkeepspace",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horkeepspace",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/HorkeepspaceBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/horkeepspace.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/horkeepspace.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/horkeepspace.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/horkeepspace.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Horkeep0",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horkeep_0",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Horkeep0Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/horkeep_0.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/horkeep_0.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/horkeep_0.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/horkeep_0.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Horkeep15",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horkeep_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/horkeep_15.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/horkeep_15.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/horkeep_15.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/horkeep_15.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Horkeep15Block.java"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Horkeep30",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horkeep_30",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Horkeep30Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/horkeep_30.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/horkeep_30.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/horkeep_30.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/horkeep_30.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Interchange2km",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_2km",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_2km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Interchange2kmBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_2km.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_2km.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_2km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/Interchange2kmBlockEntity.java"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Interchange1km",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_1km",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_1km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Interchange1kmBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_1km.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_1km.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_1km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/Interchange1kmBlockEntity.java"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Carmodellimitpart1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carmodellimitpart_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/carmodellimitpart_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/carmodellimitpart_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/carmodellimitpart_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Carmodellimitpart1Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/carmodellimitpart_1.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Start",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/procedures/StartProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Carmodellimitpart2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carmodellimitpart_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/carmodellimitpart_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Carmodellimitpart2Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/carmodellimitpart_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/carmodellimitpart_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/carmodellimitpart_2.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "CarmodellimitAddon",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carmodellimit_addon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/carmodellimit_addon.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/carmodellimit_addon.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/CarmodellimitAddonBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/carmodellimit_addon.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/carmodellimit_addon.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Tlight5",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_5.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_5.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_5.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight5Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_5.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "Tlight6",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_6.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_6.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_6.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_6.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tlight6Block.java"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "TlightR",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_r.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_r.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_r.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/TlightRBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_r.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "TlightL1",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_l_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_l_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_l_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/TlightL1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_l_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_l_1.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "TlightL2",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_l_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_l_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_l_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_l_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_l_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/TlightL2Block.java"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "TlightL3",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlight_l_3",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/TlightL3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/tlight_l_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tlight_l_3.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tlight_l_3.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tlight_l_3.json"
+        ]
+      },
+      "path": "~/Tlight"
+    },
+    {
+      "name": "PillarCross3",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillar_cross_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/pillar_cross_3.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/pillar_cross_3.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/PillarCross3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/pillar_cross_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/pillar_cross_3.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "PillarSide",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillar_side",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/pillar_side.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/PillarSideBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/pillar_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/pillar_side.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/pillar_side.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Sidedrivetiredly",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidedrivetiredly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/sidedrivetiredly.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sidedrivetiredly.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sidedrivetiredly.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SidedrivetiredlyBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sidedrivetiredly.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "LoadMod",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_mod",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/procedures/LoadModProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Siderearend",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siderearend",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/siderearend.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/siderearend.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/siderearend.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/siderearend.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SiderearendBlock.java"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "Sidekeepspace",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidekeepspace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sidekeepspace.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SidekeepspaceBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/sidekeepspace.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sidekeepspace.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sidekeepspace.json"
+        ]
+      },
+      "path": "~/Sign"
+    },
+    {
+      "name": "GantryPillarBase",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_pillar_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_pillar_base.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_pillar_base.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_pillar_base.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryPillarBaseBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_pillar_base.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "GantryPillarHigh",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_pillar_high",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_pillar_high.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryPillarHighBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_pillar_high.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_pillar_high.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_pillar_high.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "Exitg",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitg",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitgBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/exitg.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitg.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitgBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitg.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exitg.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exits",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exits",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitsBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exits.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exits.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitsBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/exits.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exits.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exitxy",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitxy",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitxyBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitxyBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitxy.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitxy.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exitxy.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exitxy.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exitr",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/exitr.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitr.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitrBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/exitr.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitrBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitr.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exitn",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/exitn.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exitn.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitn.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitn.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitnBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitnBlockEntity.java"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exit3km",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_3km",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/exit_3km.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exit_3km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Exit3kmBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exit_3km.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exit_3km.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exit2km",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_2km",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/exit_2km.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exit_2km.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exit_2km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Exit2kmBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/exit_2km.json"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exit1km",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_1km",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/exit_1km.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exit_1km.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exit_1km.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exit_1km.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Exit1kmBlock.java"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exit500m",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_500m",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exit_500m.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exit_500m.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exit_500m.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exit_500m.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Exit500mBlock.java"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "Exitnow",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitnow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitnow.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exitnow.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exitnow.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitnow.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitnowBlock.java"
+        ]
+      },
+      "path": "~/ExitSign"
+    },
+    {
+      "name": "TextEngine",
+      "type": "code",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "text_engine",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/TextEngine.java"
+        ]
+      }
+    },
+    {
+      "name": "InterchangeEdit",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/InterchangeEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/InterchangeEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExitGSXYedit",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_gsx_yedit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExitGSXYeditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExitGSXYeditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExitRedit",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_redit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExitReditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExitReditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExitNedit",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_nedit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExitNeditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExitNeditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RoadG",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/road_g.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_g.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_g.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadGBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadGBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_g.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "RoadNumberEdit",
+      "type": "gui",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_number_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/RoadNumberEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/RoadNumberEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExpwyGedit",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_gedit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwyGeditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwyGeditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExpwySedit",
+      "type": "gui",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_sedit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwySeditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwySeditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "RoadS",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_s.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadSBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_s.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_s.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadSBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_s.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "RoadXY",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_xy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_xy.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_xy.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_xy.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_xy.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadXYBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadXYBlockEntity.java"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "RoadSideG",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_side_g",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadSideGBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_side_g.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_side_g.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_side_g.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_side_g.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadSideGBlock.java"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "RoadSideS",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_side_s",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadSideSBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_side_s.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_side_s.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadSideSBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_side_s.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_side_s.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "RoadSideXY",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_side_xy",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadSideXYBlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadSideXYBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_side_xy.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_side_xy.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_side_xy.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_side_xy.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "ExpwyG",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/expwy_g.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/expwy_g.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/expwy_g.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/expwy_g.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExpwyGBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExpwyGBlockEntity.java"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "ExpwyS",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/expwy_s.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/expwy_s.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/expwy_s.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExpwySBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/expwy_s.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExpwySBlockEntity.java"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "MileageEdit",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/MileageEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/MileageEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "MileageR",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_r",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/MileageRBlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/MileageRBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/mileage_r.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/mileage_r.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/mileage_r.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/mileage_r.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "MileageRG",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_rg",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/MileageRGBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/mileage_rg.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/mileage_rg.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/mileage_rg.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/mileage_rg.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/MileageRGBlock.java"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "MileageRS",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_rs",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/MileageRSBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/MileageRSBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/mileage_rs.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/mileage_rs.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/mileage_rs.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/mileage_rs.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "MileageRXY",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_rxy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/mileage_rxy.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/mileage_rxy.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/MileageRXYBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/MileageRXYBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/mileage_rxy.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/mileage_rxy.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "MileageRN",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mileage_rn",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/MileageRNBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/mileage_rn.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/mileage_rn.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/mileage_rn.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/MileageRNBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/mileage_rn.json"
+        ]
+      },
+      "path": "~/RoadNumberSign"
+    },
+    {
+      "name": "GantryPillarTop",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_pillar_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_pillar_top.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryPillarTopBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_pillar_top.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_pillar_top.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_pillar_top.json"
+        ]
+      },
+      "path": "~/Pillar"
+    },
+    {
+      "name": "LimitCar",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limit_car",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/limit_car.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/limit_car.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/LimitCarBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/limit_car.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/limit_car.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LimitCarBlock.java"
+        ]
+      },
+      "path": "~/GantrySign"
+    },
+    {
+      "name": "GantrySpeedLimit",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_speed_limit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/GantrySpeedLimitMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/GantrySpeedLimitScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "LimitTruck",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limit_truck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/limit_truck.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/limit_truck.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/limit_truck.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LimitTruckBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/limit_truck.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/LimitTruckBlockEntity.java"
+        ]
+      },
+      "path": "~/GantrySign"
+    },
+    {
+      "name": "LimitEmergency",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limit_emergency",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/limit_emergency.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/limit_emergency.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LimitEmergencyBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/limit_emergency.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/limit_emergency.json"
+        ]
+      },
+      "path": "~/GantrySign"
+    },
+    {
+      "name": "GantryPileNumber",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_pile_number",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_pile_number.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryPileNumberBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryPileNumberBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_pile_number.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_pile_number.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_pile_number.json"
+        ]
+      },
+      "path": "~/GantrySign"
+    },
+    {
+      "name": "GantryPileNumberEdit",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_pile_number_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/GantryPileNumberEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/GantryPileNumberEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "EntranceE1G",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_1_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_1_g.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_1_g.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE1GBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_1_g.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_1_g.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/EntranceE1GBlockEntity.java"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "ExpwyEntranceG1",
+      "type": "gui",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_entrance_g_1",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwyEntranceG1Menu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwyEntranceG1Screen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExpwyEntranceS1",
+      "type": "gui",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_entrance_s_1",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwyEntranceS1Menu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwyEntranceS1Screen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExpwyEntrance2",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_entrance_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwyEntrance2Menu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwyEntrance2Screen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "EntranceE1S",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_1_s",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/EntranceE1SBlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE1SBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_1_s.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_1_s.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_1_s.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_1_s.json"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "EntranceE2",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE2Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/EntranceE2BlockEntity.java"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "EntranceE3500m",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_3500m",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_3500m.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_3500m.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE3500mBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_3500m.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_3500m.json"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "EntranceE3r",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_3r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_3r.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE3rBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_3r.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_3r.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_3r.json"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "EntranceE3l",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance_e_3l",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/entrance_e_3l.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/entrance_e_3l.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/EntranceE3lBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/entrance_e_3l.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/entrance_e_3l.json"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "Fwq1",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwq_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/fwq_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/fwq_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Fwq1Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/fwq_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/fwq_1.json"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "Fwq21",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwq_21",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Fwq21Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/fwq_21.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/fwq_21.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/fwq_21.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/fwq_21.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/Fwq21BlockEntity.java"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "Fwq22",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwq_22",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/Fwq22BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/fwq_22.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/fwq_22.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/fwq_22.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/fwq_22.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Fwq22Block.java"
+        ]
+      },
+      "path": "~/EntranceSign"
+    },
+    {
+      "name": "Fwq21Edit",
+      "type": "gui",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwq_21_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/Fwq21EditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/Fwq21EditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Fwq22Edit",
+      "type": "gui",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwq_22_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/Fwq22EditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/Fwq22EditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "LeftArrow",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/left_arrow.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/left_arrow.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LeftArrowBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/left_arrow.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/left_arrow.json"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "LeftArrowSide",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_arrow_side",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LeftArrowSideBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/left_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/left_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/left_arrow_side.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/left_arrow_side.json"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "RightArrow",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/right_arrow.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/right_arrow.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/right_arrow.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/right_arrow.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RightArrowBlock.java"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "RightArrowSide",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_arrow_side",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RightArrowSideBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/right_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/right_arrow_side.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/right_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/right_arrow_side.json"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "StraightArrow",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/StraightArrowBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/straight_arrow.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/straight_arrow.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/straight_arrow.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/straight_arrow.json"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "StraightArrowSide",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_arrow_side",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/straight_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/straight_arrow_side.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/straight_arrow_side.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/StraightArrowSideBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/straight_arrow_side.json"
+        ]
+      },
+      "path": "~/v1.0.2update/arrow"
+    },
+    {
+      "name": "GantryExpwyGEdit",
+      "type": "gui",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_g_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/GantryExpwyGEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/GantryExpwyGEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "GantryExpwySEdit",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_s_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/GantryExpwySEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/GantryExpwySEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "GantryExpwyGnumber",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_gnumber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_expwy_gnumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_expwy_gnumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_expwy_gnumber.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryExpwyGnumberBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryExpwyGnumberBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_expwy_gnumber.json"
+        ]
+      },
+      "path": "~/v1.0.2update/ExpwyBeginEnd"
+    },
+    {
+      "name": "GantryExpwySnumber",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_snumber",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryExpwySnumberBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_expwy_snumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_expwy_snumber.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_expwy_snumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_expwy_snumber.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryExpwySnumberBlockEntity.java"
+        ]
+      },
+      "path": "~/v1.0.2update/ExpwyBeginEnd"
+    },
+    {
+      "name": "GantryExpwyBegin",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_begin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_expwy_begin.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_expwy_begin.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_expwy_begin.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryExpwyBeginBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_expwy_begin.json"
+        ]
+      },
+      "path": "~/v1.0.2update/ExpwyBeginEnd"
+    },
+    {
+      "name": "GantryExpwyEnd",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_expwy_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_expwy_end.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_expwy_end.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_expwy_end.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_expwy_end.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryExpwyEndBlock.java"
+        ]
+      },
+      "path": "~/v1.0.2update/ExpwyBeginEnd"
+    },
+    {
+      "name": "InterchangeA1",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_a_1",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/InterchangeA1Block.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/InterchangeA1BlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_a_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_a_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_a_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_a_1.json"
+        ]
+      },
+      "path": "~/v1.0.2update/interchangereport"
+    },
+    {
+      "name": "InterchangeInfoEdit",
+      "type": "gui",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_info_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/InterchangeInfoEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/InterchangeInfoEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "InterchangeA2",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_a_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/InterchangeA2BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_a_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_a_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/InterchangeA2Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_a_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_a_2.json"
+        ]
+      },
+      "path": "~/v1.0.2update/interchangereport"
+    },
+    {
+      "name": "InterchangeB1",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_b_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_b_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_b_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/InterchangeB1BlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/InterchangeB1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_b_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_b_1.json"
+        ]
+      },
+      "path": "~/v1.0.2update/interchangereport"
+    },
+    {
+      "name": "InterchangeB2",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interchange_b_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/InterchangeB2BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/interchange_b_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/interchange_b_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/interchange_b_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/interchange_b_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/InterchangeB2Block.java"
+        ]
+      },
+      "path": "~/v1.0.2update/interchangereport"
+    },
+    {
+      "name": "Seatbelt",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seatbelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/seatbelt.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/seatbelt.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SeatbeltBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/seatbelt.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/seatbelt.json"
+        ]
+      },
+      "path": "~/v1.0.2update"
+    },
+    {
+      "name": "HORplacereport",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ho_rplacereport",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/ho_rplacereport.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/HORplacereportBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/ho_rplacereport.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/ho_rplacereport.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/HORplacereportBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/ho_rplacereport.json"
+        ]
+      },
+      "path": "~/v1.0.2update/HOR"
+    },
+    {
+      "name": "PlaceReport",
+      "type": "gui",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_report",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/PlaceReportMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/PlaceReportScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "StrictRoadEdit",
+      "type": "gui",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strict_road_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/StrictRoadEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/StrictRoadEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "StrictRoad",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strict_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/strict_road.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/StrictRoadBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/strict_road.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/strict_road.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/StrictRoadBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/strict_road.json"
+        ]
+      },
+      "path": "~/v1.0.2update"
+    },
+    {
+      "name": "SIDEcross1",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_ecross_1",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEcross1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_ecross_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_ecross_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEcross1BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_ecross_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_ecross_1.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "CrossEdit",
+      "type": "gui",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/CrossEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/CrossEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "SIDEcross2",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_ecross_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_ecross_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_ecross_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEcross2Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_ecross_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEcross2BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_ecross_2.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEcross3",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_ecross_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_ecross_3.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEcross3BlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_ecross_3.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_ecross_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_ecross_3.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEcross3Block.java"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEcross4",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_ecross_4",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEcross4Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_ecross_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_ecross_4.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_ecross_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_ecross_4.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEcross4BlockEntity.java"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEnophone",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_enophone",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEnophoneBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_enophone.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_enophone.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_enophone.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_enophone.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEtollgate500m",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_etollgate_500m",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEtollgate500mBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_etollgate_500m.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_etollgate_500m.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_etollgate_500m.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_etollgate_500m.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEtollgate0m",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_etollgate_0m",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_etollgate_0m.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEtollgate0mBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_etollgate_0m.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_etollgate_0m.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_etollgate_0m.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEweighingstation",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_eweighingstation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_eweighingstation.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEweighingstationBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_eweighingstation.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_eweighingstation.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_eweighingstation.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "ExitNumberEdit",
+      "type": "gui",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_number_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExitNumberEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExitNumberEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "BarrierEdit",
+      "type": "gui",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/BarrierEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/BarrierEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "TunnelEdit",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunnel_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/TunnelEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/TunnelEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "SIDEbarrier",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_ebarrier",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEbarrierBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_ebarrier.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEbarrierBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_ebarrier.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_ebarrier.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_ebarrier.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEtunnel",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_etunnel",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEtunnelBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_etunnel.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_etunnel.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_etunnel.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEtunnelBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_etunnel.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "SIDEexitnumber",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sid_eexitnumber",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/SIDEexitnumberBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/sid_eexitnumber.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/SIDEexitnumberBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/sid_eexitnumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/sid_eexitnumber.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/sid_eexitnumber.json"
+        ]
+      },
+      "path": "~/v1.0.2update/Side"
+    },
+    {
+      "name": "Exitplacereport",
+      "type": "gui",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitplacereport",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExitplacereportScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExitplacereportMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "BridgeEdit",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridge_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/BridgeEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/BridgeEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "NextexitEdit",
+      "type": "gui",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nextexit_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/NextexitEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/NextexitEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExpwyExportReportEdit",
+      "type": "gui",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_export_report_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ExpwyExportReportEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ExpwyExportReportEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "IntergoingEdit",
+      "type": "gui",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intergoing_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/IntergoingEditMenu.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/IntergoingEditScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Cross1",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_1.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross2",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross2Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_2.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross3",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_3",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_3.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_3.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_3.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross4",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_4",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross4Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_4.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_4.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_4.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross5",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_5.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_5.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_5.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross5Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_5.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross6",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_6.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross6Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_6.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_6.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_6.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Cross7",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_7",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Cross7Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/cross_7.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/cross_7.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/cross_7.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/cross_7.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Cross"
+    },
+    {
+      "name": "Tip1",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_1.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip1Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_1.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip2",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip2Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_2.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_2.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip3",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_3",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_3.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_3.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_3.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip4",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_4.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_4.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip4Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_4.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip5",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_5.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_5.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip5Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_5.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_5.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip6",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_6.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_6.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_6.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_6.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip6Block.java"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip7",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_7.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip7Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_7.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_7.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_7.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip8",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_8.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_8.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip8Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_8.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_8.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip9",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_9.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_9.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip9Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_9.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_9.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip10",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_10.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip10Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_10.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_10.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_10.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip11",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_11.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip11Block.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_11.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_11.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_11.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip12",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_12.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_12.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip12Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_12.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_12.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip13",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_13.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_13.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_13.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip13Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_13.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Tip14",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/tip_14.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/tip_14.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Tip14Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/tip_14.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/tip_14.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "WaterProtect1",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_protect_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/water_protect_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/water_protect_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/water_protect_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/WaterProtect1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/water_protect_1.json"
+        ]
+      },
+      "path": "~/v1.0.3update/waterprotect"
+    },
+    {
+      "name": "WaterProtect2",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_protect_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/water_protect_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/water_protect_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/water_protect_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/water_protect_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/WaterProtect2Block.java"
+        ]
+      },
+      "path": "~/v1.0.3update/waterprotect"
+    },
+    {
+      "name": "WaterProtect3",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_protect_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/water_protect_3.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/WaterProtect3Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/water_protect_3.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/water_protect_3.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/water_protect_3.json"
+        ]
+      },
+      "path": "~/v1.0.3update/waterprotect"
+    },
+    {
+      "name": "WaterProtect4",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_protect_4",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/WaterProtect4Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/water_protect_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/water_protect_4.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/water_protect_4.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/water_protect_4.json"
+        ]
+      },
+      "path": "~/v1.0.3update/waterprotect"
+    },
+    {
+      "name": "Guo3noout",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guo_3noout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/guo_3noout.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Guo3nooutBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/guo_3noout.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/guo_3noout.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/guo_3noout.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExpwyTip"
+    },
+    {
+      "name": "Truckright",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truckright",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/truckright.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/TruckrightBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/truckright.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/truckright.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/truckright.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "Callphone1",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callphone_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/callphone_1.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/callphone_1.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/callphone_1.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Callphone1Block.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/callphone_1.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "Callphone2",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callphone_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/Callphone2Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/callphone_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/callphone_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/callphone_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/callphone_2.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "BadWeather",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_weather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/bad_weather.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/BadWeatherBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/bad_weather.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/bad_weather.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/bad_weather.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "LandSlideArea",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_slide_area",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/land_slide_area.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/land_slide_area.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/land_slide_area.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/land_slide_area.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/LandSlideAreaBlock.java"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "Bridge",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/bridge.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/BridgeBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/bridge.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/bridge.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/BridgeBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/bridge.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "Exitreport",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitreport",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitreportBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exitreport.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exitreport.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exitreport.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitreportBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/exitreport.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "Nextexit",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nextexit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/NextexitBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/nextexit.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/nextexit.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/nextexit.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/NextexitBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/nextexit.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "StrictRoad2",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strict_road_2",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/StrictRoad2Block.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/strict_road_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/strict_road_2.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/strict_road_2.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/strict_road_2.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/StrictRoad2BlockEntity.java"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "ServiceAreaEntrance",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "service_area_entrance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/service_area_entrance.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/service_area_entrance.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/service_area_entrance.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/service_area_entrance.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ServiceAreaEntranceBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ServiceAreaEntranceBlockEntity.java"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "ServiceAreaEdit",
+      "type": "gui",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "service_area_edit",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/client/gui/ServiceAreaEditScreen.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/world/inventory/ServiceAreaEditMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ExitNumberShow",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_number_show",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExitNumberShowBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExitNumberShowBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/exit_number_show.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/exit_number_show.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/exit_number_show.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/exit_number_show.json"
+        ]
+      },
+      "path": "~/v1.0.3update/Other"
+    },
+    {
+      "name": "ExpwyExitStraight",
+      "type": "block",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_exit_straight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/expwy_exit_straight.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/expwy_exit_straight.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExpwyExitStraightBlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExpwyExitStraightBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/expwy_exit_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/expwy_exit_straight.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExitGoing"
+    },
+    {
+      "name": "ExpwyExitRight",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expwy_exit_right",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/ExpwyExitRightBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/expwy_exit_right.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/ExpwyExitRightBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/expwy_exit_right.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/expwy_exit_right.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/expwy_exit_right.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExitGoing"
+    },
+    {
+      "name": "RoadExitStraight",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_exit_straight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_exit_straight.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadExitStraightBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadExitStraightBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_exit_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_exit_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_exit_straight.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExitGoing"
+    },
+    {
+      "name": "RoadExitRight",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_exit_right",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/RoadExitRightBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/road_exit_right.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/road_exit_right.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/road_exit_right.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/RoadExitRightBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/road_exit_right.json"
+        ]
+      },
+      "path": "~/v1.0.3update/ExitGoing"
+    },
+    {
+      "name": "GantryGInterStraight",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_g_inter_straight",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryGInterStraightBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_g_inter_straight.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryGInterStraightBlock.java",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_g_inter_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_g_inter_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_g_inter_straight.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    },
+    {
+      "name": "GantryGInterRight",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_g_inter_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_g_inter_right.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryGInterRightBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_g_inter_right.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_g_inter_right.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryGInterRightBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_g_inter_right.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    },
+    {
+      "name": "GantryGInterLeft",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_g_inter_left",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantryGInterLeftBlockEntity.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_g_inter_left.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_g_inter_left.json",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_g_inter_left.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantryGInterLeftBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_g_inter_left.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    },
+    {
+      "name": "GantrySInterStraight",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_s_inter_straight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_s_inter_straight.json",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_s_inter_straight.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantrySInterStraightBlockEntity.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantrySInterStraightBlock.java",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_s_inter_straight.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_s_inter_straight.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    },
+    {
+      "name": "GantrySInterRight",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_s_inter_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_s_inter_right.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_s_inter_right.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantrySInterRightBlock.java",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantrySInterRightBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_s_inter_right.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_s_inter_right.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    },
+    {
+      "name": "GantrySInterLeft",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gantry_s_inter_left",
+      "metadata": {
+        "files": [
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/GantrySInterLeftBlock.java",
+          "src/main/resources/assets/junjietrafficmod/models/block/gantry_s_inter_left.json",
+          "src/main/resources/data/junjietrafficmod/loot_tables/blocks/gantry_s_inter_left.json",
+          "src/main/java/mcscjunjie/junzulaki/trafficmod/block/entity/GantrySInterLeftBlockEntity.java",
+          "src/main/resources/assets/junjietrafficmod/models/item/gantry_s_inter_left.json",
+          "src/main/resources/assets/junjietrafficmod/blockstates/gantry_s_inter_left.json"
+        ]
+      },
+      "path": "~/v1.0.3update/GantryInterchange"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GantrySInterLeft",
+      "~CUSTOM:GantrySInterRight",
+      "~CUSTOM:GantrySInterStraight",
+      "~CUSTOM:GantryGInterLeft",
+      "~CUSTOM:GantryGInterRight",
+      "~CUSTOM:GantryGInterStraight",
+      "~CUSTOM:RoadExitRight",
+      "~CUSTOM:RoadExitStraight",
+      "~CUSTOM:ExpwyExitRight",
+      "~CUSTOM:ExpwyExitStraight",
+      "~CUSTOM:ExitNumberShow",
+      "~CUSTOM:ServiceAreaEntrance",
+      "~CUSTOM:StrictRoad2",
+      "~CUSTOM:Nextexit",
+      "~CUSTOM:Exitreport",
+      "~CUSTOM:Bridge",
+      "~CUSTOM:LandSlideArea",
+      "~CUSTOM:BadWeather",
+      "~CUSTOM:Callphone2",
+      "~CUSTOM:Callphone1",
+      "~CUSTOM:Truckright",
+      "~CUSTOM:Guo3noout",
+      "~CUSTOM:WaterProtect4",
+      "~CUSTOM:WaterProtect3",
+      "~CUSTOM:WaterProtect2",
+      "~CUSTOM:WaterProtect1",
+      "~CUSTOM:Tip14",
+      "~CUSTOM:Tip13",
+      "~CUSTOM:Tip12",
+      "~CUSTOM:Tip11",
+      "~CUSTOM:Tip10",
+      "~CUSTOM:Tip9",
+      "~CUSTOM:Tip8",
+      "~CUSTOM:Tip7",
+      "~CUSTOM:Tip6",
+      "~CUSTOM:Tip5",
+      "~CUSTOM:Tip4",
+      "~CUSTOM:Tip3",
+      "~CUSTOM:Tip2",
+      "~CUSTOM:Tip1",
+      "~CUSTOM:Cross7",
+      "~CUSTOM:Cross6",
+      "~CUSTOM:Cross5",
+      "~CUSTOM:Cross4",
+      "~CUSTOM:Cross3",
+      "~CUSTOM:Cross2",
+      "~CUSTOM:Cross1",
+      "~CUSTOM:SIDEexitnumber",
+      "~CUSTOM:SIDEtunnel",
+      "~CUSTOM:SIDEbarrier",
+      "~CUSTOM:SIDEweighingstation",
+      "~CUSTOM:SIDEtollgate0m",
+      "~CUSTOM:SIDEtollgate500m",
+      "~CUSTOM:SIDEnophone",
+      "~CUSTOM:SIDEcross4",
+      "~CUSTOM:SIDEcross3",
+      "~CUSTOM:SIDEcross2",
+      "~CUSTOM:SIDEcross1",
+      "~CUSTOM:StrictRoad",
+      "~CUSTOM:HORplacereport",
+      "~CUSTOM:Seatbelt",
+      "~CUSTOM:InterchangeB2",
+      "~CUSTOM:InterchangeB1",
+      "~CUSTOM:InterchangeA2",
+      "~CUSTOM:InterchangeA1",
+      "~CUSTOM:GantryExpwyEnd",
+      "~CUSTOM:GantryExpwyBegin",
+      "~CUSTOM:GantryExpwySnumber",
+      "~CUSTOM:GantryExpwyGnumber",
+      "~CUSTOM:StraightArrowSide",
+      "~CUSTOM:StraightArrow",
+      "~CUSTOM:RightArrowSide",
+      "~CUSTOM:RightArrow",
+      "~CUSTOM:LeftArrowSide",
+      "~CUSTOM:LeftArrow",
+      "~CUSTOM:Fwq22",
+      "~CUSTOM:Fwq21",
+      "~CUSTOM:Fwq1",
+      "~CUSTOM:EntranceE3l",
+      "~CUSTOM:EntranceE3r",
+      "~CUSTOM:EntranceE3500m",
+      "~CUSTOM:EntranceE2",
+      "~CUSTOM:EntranceE1S",
+      "~CUSTOM:EntranceE1G",
+      "~CUSTOM:GantryPileNumber",
+      "~CUSTOM:LimitEmergency",
+      "~CUSTOM:LimitTruck",
+      "~CUSTOM:LimitCar",
+      "~CUSTOM:GantryPillarTop",
+      "~CUSTOM:MileageRN",
+      "~CUSTOM:MileageRXY",
+      "~CUSTOM:MileageRS",
+      "~CUSTOM:MileageRG",
+      "~CUSTOM:MileageR",
+      "~CUSTOM:ExpwyS",
+      "~CUSTOM:ExpwyG",
+      "~CUSTOM:RoadSideXY",
+      "~CUSTOM:RoadSideS",
+      "~CUSTOM:RoadSideG",
+      "~CUSTOM:RoadXY",
+      "~CUSTOM:RoadS",
+      "~CUSTOM:RoadG",
+      "~CUSTOM:Exitnow",
+      "~CUSTOM:Exit500m",
+      "~CUSTOM:Exit1km",
+      "~CUSTOM:Exit2km",
+      "~CUSTOM:Exit3km",
+      "~CUSTOM:Exitn",
+      "~CUSTOM:Exitr",
+      "~CUSTOM:Exitxy",
+      "~CUSTOM:Exits",
+      "~CUSTOM:Exitg",
+      "~CUSTOM:GantryPillarHigh",
+      "~CUSTOM:GantryPillarBase",
+      "~CUSTOM:Sidekeepspace",
+      "~CUSTOM:Siderearend",
+      "~CUSTOM:Sidedrivetiredly",
+      "~CUSTOM:PillarSide",
+      "~CUSTOM:PillarCross3",
+      "~CUSTOM:TlightL3",
+      "~CUSTOM:TlightL2",
+      "~CUSTOM:TlightL1",
+      "~CUSTOM:TlightR",
+      "~CUSTOM:Tlight6",
+      "~CUSTOM:Tlight5",
+      "~CUSTOM:CarmodellimitAddon",
+      "~CUSTOM:Carmodellimitpart2",
+      "~CUSTOM:Carmodellimitpart1",
+      "~CUSTOM:Interchange1km",
+      "~CUSTOM:Interchange2km",
+      "~CUSTOM:Horkeep30",
+      "~CUSTOM:Horkeep15",
+      "~CUSTOM:Horkeep0",
+      "~CUSTOM:Horkeepspace",
+      "~CUSTOM:Horrearend",
+      "~CUSTOM:Hordrivetiredly",
+      "~CUSTOM:Pillarwhite",
+      "~CUSTOM:Pillarblue",
+      "~CUSTOM:Basswhite",
+      "~CUSTOM:Bassblue",
+      "~CUSTOM:Tlight4",
+      "~CUSTOM:Tlight3",
+      "~CUSTOM:Tlight2",
+      "~CUSTOM:Tlight1"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:GantrySInterLeft",
+      "~CUSTOM:GantrySInterRight",
+      "~CUSTOM:GantrySInterStraight",
+      "~CUSTOM:GantryGInterLeft",
+      "~CUSTOM:GantryGInterRight",
+      "~CUSTOM:GantryGInterStraight",
+      "~CUSTOM:RoadExitRight",
+      "~CUSTOM:RoadExitStraight",
+      "~CUSTOM:ExpwyExitRight",
+      "~CUSTOM:ExpwyExitStraight",
+      "~CUSTOM:ExitNumberShow",
+      "~CUSTOM:ServiceAreaEntrance",
+      "~CUSTOM:StrictRoad2",
+      "~CUSTOM:Nextexit",
+      "~CUSTOM:Exitreport",
+      "~CUSTOM:Bridge",
+      "~CUSTOM:LandSlideArea",
+      "~CUSTOM:BadWeather",
+      "~CUSTOM:Callphone2",
+      "~CUSTOM:Callphone1",
+      "~CUSTOM:Truckright",
+      "~CUSTOM:Guo3noout",
+      "~CUSTOM:WaterProtect4",
+      "~CUSTOM:WaterProtect3",
+      "~CUSTOM:WaterProtect2",
+      "~CUSTOM:WaterProtect1",
+      "~CUSTOM:Tip14",
+      "~CUSTOM:Tip13",
+      "~CUSTOM:Tip12",
+      "~CUSTOM:Tip11",
+      "~CUSTOM:Tip10",
+      "~CUSTOM:Tip9",
+      "~CUSTOM:Tip8",
+      "~CUSTOM:Tip7",
+      "~CUSTOM:Tip6",
+      "~CUSTOM:Tip5",
+      "~CUSTOM:Tip4",
+      "~CUSTOM:Tip3",
+      "~CUSTOM:Tip2",
+      "~CUSTOM:Tip1",
+      "~CUSTOM:Cross7",
+      "~CUSTOM:Cross6",
+      "~CUSTOM:Cross5",
+      "~CUSTOM:Cross4",
+      "~CUSTOM:Cross3",
+      "~CUSTOM:Cross2",
+      "~CUSTOM:Cross1",
+      "~CUSTOM:SIDEexitnumber",
+      "~CUSTOM:SIDEtunnel",
+      "~CUSTOM:SIDEbarrier",
+      "~CUSTOM:SIDEweighingstation",
+      "~CUSTOM:SIDEtollgate0m",
+      "~CUSTOM:SIDEtollgate500m",
+      "~CUSTOM:SIDEnophone",
+      "~CUSTOM:SIDEcross4",
+      "~CUSTOM:SIDEcross3",
+      "~CUSTOM:SIDEcross2",
+      "~CUSTOM:SIDEcross1",
+      "~CUSTOM:StrictRoad",
+      "~CUSTOM:HORplacereport",
+      "~CUSTOM:Seatbelt",
+      "~CUSTOM:InterchangeB2",
+      "~CUSTOM:InterchangeB1",
+      "~CUSTOM:InterchangeA2",
+      "~CUSTOM:InterchangeA1",
+      "~CUSTOM:GantryExpwyEnd",
+      "~CUSTOM:GantryExpwyBegin",
+      "~CUSTOM:GantryExpwySnumber",
+      "~CUSTOM:GantryExpwyGnumber",
+      "~CUSTOM:StraightArrowSide",
+      "~CUSTOM:StraightArrow",
+      "~CUSTOM:RightArrowSide",
+      "~CUSTOM:RightArrow",
+      "~CUSTOM:LeftArrowSide",
+      "~CUSTOM:LeftArrow",
+      "~CUSTOM:Fwq22",
+      "~CUSTOM:Fwq21",
+      "~CUSTOM:Fwq1",
+      "~CUSTOM:EntranceE3l",
+      "~CUSTOM:EntranceE3r",
+      "~CUSTOM:EntranceE3500m",
+      "~CUSTOM:EntranceE2",
+      "~CUSTOM:EntranceE1S",
+      "~CUSTOM:EntranceE1G",
+      "~CUSTOM:GantryPileNumber",
+      "~CUSTOM:LimitEmergency",
+      "~CUSTOM:LimitTruck",
+      "~CUSTOM:LimitCar",
+      "~CUSTOM:GantryPillarTop",
+      "~CUSTOM:MileageRN",
+      "~CUSTOM:MileageRXY",
+      "~CUSTOM:MileageRS",
+      "~CUSTOM:MileageRG",
+      "~CUSTOM:MileageR",
+      "~CUSTOM:ExpwyS",
+      "~CUSTOM:ExpwyG",
+      "~CUSTOM:RoadSideXY",
+      "~CUSTOM:RoadSideS",
+      "~CUSTOM:RoadSideG",
+      "~CUSTOM:RoadXY",
+      "~CUSTOM:RoadS",
+      "~CUSTOM:RoadG",
+      "~CUSTOM:Exitnow",
+      "~CUSTOM:Exit500m",
+      "~CUSTOM:Exit1km",
+      "~CUSTOM:Exit2km",
+      "~CUSTOM:Exit3km",
+      "~CUSTOM:Exitn",
+      "~CUSTOM:Exitr",
+      "~CUSTOM:Exitxy",
+      "~CUSTOM:Exits",
+      "~CUSTOM:Exitg",
+      "~CUSTOM:GantryPillarHigh",
+      "~CUSTOM:GantryPillarBase",
+      "~CUSTOM:Sidekeepspace",
+      "~CUSTOM:Siderearend",
+      "~CUSTOM:Sidedrivetiredly",
+      "~CUSTOM:PillarSide",
+      "~CUSTOM:PillarCross3",
+      "~CUSTOM:TlightL3",
+      "~CUSTOM:TlightL2",
+      "~CUSTOM:TlightL1",
+      "~CUSTOM:TlightR",
+      "~CUSTOM:Tlight6",
+      "~CUSTOM:Tlight5",
+      "~CUSTOM:CarmodellimitAddon",
+      "~CUSTOM:Carmodellimitpart2",
+      "~CUSTOM:Carmodellimitpart1",
+      "~CUSTOM:Interchange1km",
+      "~CUSTOM:Interchange2km",
+      "~CUSTOM:Horkeep30",
+      "~CUSTOM:Horkeep15",
+      "~CUSTOM:Horkeep0",
+      "~CUSTOM:Horkeepspace",
+      "~CUSTOM:Horrearend",
+      "~CUSTOM:Hordrivetiredly",
+      "~CUSTOM:Pillarwhite",
+      "~CUSTOM:Pillarblue",
+      "~CUSTOM:Basswhite",
+      "~CUSTOM:Bassblue",
+      "~CUSTOM:Tlight4",
+      "~CUSTOM:Tlight3",
+      "~CUSTOM:Tlight2",
+      "~CUSTOM:Tlight1"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "gui.junjietrafficmod.interchange_info_edit.fwqname": "",
+      "gui.junjietrafficmod.road_number_edit.label_exit_number": "Exit number",
+      "block.junjietrafficmod.exitr": "出口预告上（路名+1地名）",
+      "gui.junjietrafficmod.place_report.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_gantry_pile_number": "Gantry pile number",
+      "block.junjietrafficmod.exitn": "出口预告上（无附加+2地名）",
+      "block.junjietrafficmod.ho_rplacereport": "地区预告（双柱式）",
+      "block.junjietrafficmod.exitg": "出口预告上（国道+1地名）",
+      "gui.junjietrafficmod.bridge_edit.pinyin": "",
+      "gui.junjietrafficmod.interchange_info_edit.label_export_b": "Export B",
+      "gui.junjietrafficmod.interchange_info_edit.label_export_a": "Export A",
+      "block.junjietrafficmod.sid_etunnel": "隧道信息（悬臂型）",
+      "gui.junjietrafficmod.fwq_21_edit.fwqname": "",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_export_name": "Export Name",
+      "gui.junjietrafficmod.gantry_pile_number_edit.gantrypilenumber": "",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.exits": "出口预告上（省道+1地名）",
+      "gui.junjietrafficmod.exit_redit.label_road_number": "Road number",
+      "block.junjietrafficmod.mileage_r": "高速公路里程牌",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.place_report.label_place_b": "Place B",
+      "gui.junjietrafficmod.place_report.label_place_c": "Place C",
+      "gui.junjietrafficmod.expwy_entrance_2.button_edit": "Save change",
+      "gui.junjietrafficmod.exit_redit.roadname": "",
+      "gui.junjietrafficmod.bridge_edit.surviceareaname": "",
+      "gui.junjietrafficmod.place_report.label_place_a": "Place A",
+      "gui.junjietrafficmod.cross_edit.label_left_lead_road": "Left lead road",
+      "gui.junjietrafficmod.expwy_entrance_s_1.province": "",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_distance": "Distance",
+      "block.junjietrafficmod.seatbelt": "安全带（立柱型）",
+      "gui.junjietrafficmod.mileage_edit.label_mileage": "mileage",
+      "gui.junjietrafficmod.fwq_22_edit.fwqname": "",
+      "gui.junjietrafficmod.fwq_22_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.exitplacereport.placeaname": "",
+      "block.junjietrafficmod.interchange_a_1": "枢纽信息A无距离（立柱型）",
+      "gui.junjietrafficmod.gantry_speed_limit.label_maximum_speed": "Maximum speed",
+      "block.junjietrafficmod.interchange_a_2": "枢纽信息A1.5km（立柱型）",
+      "gui.junjietrafficmod.expwy_sedit.label_province": "Province",
+      "gui.junjietrafficmod.service_area_edit.label_pinyin": "Pinyin",
+      "gui.junjietrafficmod.cross_edit.label_leftroad_distance": "Leftroad Distance",
+      "block.junjietrafficmod.mileage_rn": "普通公路里程牌（自定义路名）",
+      "gui.junjietrafficmod.place_report.placea": "",
+      "block.junjietrafficmod.sid_eexitnumber": "出口编号（用于悬臂上附加）",
+      "gui.junjietrafficmod.intergoing_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.mileage_rs": "普通公路里程牌（省道）",
+      "gui.junjietrafficmod.fwq_21_edit.label_expwy_number": "Expwy Number",
+      "gui.junjietrafficmod.place_report.fwqdistance": "",
+      "gui.junjietrafficmod.service_area_edit.surviceareaname": "",
+      "gui.junjietrafficmod.strict_road_edit.button_edit": "Save change",
+      "block.junjietrafficmod.sid_ecross_1": "普通公路指路牌A（立柱型）",
+      "block.junjietrafficmod.sid_ecross_2": "普通公路指路牌B（立柱型）",
+      "block.junjietrafficmod.mileage_rg": "普通公路里程牌（国道）",
+      "block.junjietrafficmod.sid_ecross_3": "普通公路指路牌C（立柱型）",
+      "block.junjietrafficmod.sid_ecross_4": "普通公路指路牌D（立柱型）",
+      "gui.junjietrafficmod.exitplacereport.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.cross_3": "车道指引-左转(龙门架)",
+      "block.junjietrafficmod.cross_2": "车道指引-掉头\u0026左转(龙门架)",
+      "gui.junjietrafficmod.exit_redit.roadnumber": "",
+      "block.junjietrafficmod.cross_1": "车道指引-掉头(龙门架)",
+      "gui.junjietrafficmod.mileage_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.nextexit_edit.label_length": "Length",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_expwy_number": "Expwy number",
+      "block.junjietrafficmod.tlight_3": "交通灯底3",
+      "block.junjietrafficmod.tlight_2": "交通灯底2",
+      "block.junjietrafficmod.tlight_1": "交通灯底1",
+      "block.junjietrafficmod.interchange_b_1": "枢纽信息B无距离（立柱型）",
+      "block.junjietrafficmod.tlight_6": "交通灯底6",
+      "block.junjietrafficmod.interchange_b_2": "枢纽信息B1.5km（立柱型）",
+      "block.junjietrafficmod.tlight_5": "交通灯底5",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_expwy_number": "Expwy Number",
+      "block.junjietrafficmod.tlight_4": "交通灯底4",
+      "gui.junjietrafficmod.bridge_edit.label_length": "Length",
+      "block.junjietrafficmod.cross_7": "车道指引-右转(龙门架)",
+      "block.junjietrafficmod.cross_6": "车道指引-直行\u0026右转(龙门架)",
+      "block.junjietrafficmod.cross_5": "车道指引-直行(龙门架)",
+      "block.junjietrafficmod.cross_4": "车道指引-左转\u0026直行(龙门架)",
+      "gui.junjietrafficmod.tunnel_edit.fwqname": "",
+      "gui.junjietrafficmod.service_area_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.fwq_22_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.expwy_gedit.label_second_line": "Second Line",
+      "block.junjietrafficmod.tip_14": "提示牌14-桥面结冰",
+      "block.junjietrafficmod.tip_13": "提示牌13-集中精力",
+      "block.junjietrafficmod.tip_12": "提示牌12-连续下坡",
+      "gui.junjietrafficmod.exitplacereport.placebname": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.button_edit": "Save change",
+      "block.junjietrafficmod.tip_11": "提示牌11-出口车辆",
+      "block.junjietrafficmod.tip_10": "提示牌10-严禁违停",
+      "gui.junjietrafficmod.intergoing_edit.label_direction": "Direction",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_service_area_name": "Service Area Name",
+      "block.junjietrafficmod.limit_truck": "客货车道限速（龙门架版）",
+      "gui.junjietrafficmod.barrier_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.intergoing_edit.firstline": "",
+      "gui.junjietrafficmod.barrier_edit.label_service_area_name": "Service Area Name",
+      "block.junjietrafficmod.road_xy": "县乡道标识（单柱版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.fwqdistance": "",
+      "gui.junjietrafficmod.bridge_edit.bridgename": "",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_expwy_number": "Expwy Number",
+      "gui.junjietrafficmod.nextexit_edit.label_pinyin": "Pinyin",
+      "gui.junjietrafficmod.strict_road_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.road_side_g": "国道标识（悬臂版）",
+      "block.junjietrafficmod.gantry_s_inter_left": "枢纽左侧去向（省高速）",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_road_number": "Road number",
+      "gui.junjietrafficmod.intergoing_edit.label_province": "Province",
+      "gui.junjietrafficmod.exit_nedit.roadnumber": "",
+      "block.junjietrafficmod.tlight_r": "交通灯右1",
+      "gui.junjietrafficmod.expwy_sedit.label_expwy_name": "Expwy Name",
+      "gui.junjietrafficmod.exit_number_edit.label_service_area_name": "Service Area Name",
+      "block.junjietrafficmod.gantry_pillar_high": "龙门架侧杆顶",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_expwy_name": "Expwy name",
+      "gui.junjietrafficmod.mileage_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_expwy_number": "Expwy Number",
+      "gui.junjietrafficmod.mileage_edit.label_export_name": "Export Name",
+      "block.junjietrafficmod.carmodellimitpart_1": "分车型限速（上）",
+      "block.junjietrafficmod.carmodellimitpart_2": "分车型限速（下）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.expwyname": "",
+      "block.junjietrafficmod.fwq_21": "服务区预告 下 带箭头",
+      "gui.junjietrafficmod.bridge_edit.label_survice_area_name": "Survice Area Name",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance": "",
+      "gui.junjietrafficmod.intergoing_edit.secondline": "",
+      "block.junjietrafficmod.fwq_22": "服务区预告 下 自定义距离",
+      "gui.junjietrafficmod.exitplacereport.label_place_a_pinyin": "Place A Pinyin",
+      "gui.junjietrafficmod.exit_redit.button_edit": "Save change",
+      "block.junjietrafficmod.road_side_s": "省道标识（悬臂版）",
+      "gui.junjietrafficmod.fwq_21_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_expwy_name": "Expwy Name",
+      "block.junjietrafficmod.pillar_side": "白色横杆",
+      "gui.junjietrafficmod.barrier_edit.label_length": "Length",
+      "block.junjietrafficmod.guo_3noout": "国三禁止驶出",
+      "gui.junjietrafficmod.road_number_edit.roadnumber": "",
+      "gui.junjietrafficmod.exit_redit.label_road_name": "Road Name",
+      "gui.junjietrafficmod.interchange_info_edit.label_straight": "Straight",
+      "gui.junjietrafficmod.exit_number_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_gedit.firstline": "",
+      "gui.junjietrafficmod.service_area_edit.label_survice_area_name": "Survice Area Name",
+      "item_group.junjietrafficmod.tlight": "JunjieTrafficMod",
+      "gui.junjietrafficmod.fwq_22_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.expwy_sedit.secondline": "地名2",
+      "block.junjietrafficmod.exit_3km": "出口预告下3km",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_export_name": "Export name",
+      "gui.junjietrafficmod.gantry_pile_number_edit.inter1km": "67",
+      "gui.junjietrafficmod.exit_r_nedit.label_road_number": "Road number",
+      "gui.junjietrafficmod.strict_road_edit.fwqname": "",
+      "gui.junjietrafficmod.nextexit_edit.button_edit": "Save change",
+      "block.junjietrafficmod.land_slide_area": "滑坡路段（悬臂式）",
+      "block.junjietrafficmod.expwy_exit_straight": "高速出口处直行去向",
+      "gui.junjietrafficmod.tunnel_edit.tunnelname": "",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_province": "Province",
+      "block.junjietrafficmod.entrance_e_3500m": "高速公路入口 下 入口500m",
+      "gui.junjietrafficmod.expwy_gedit.label_expwy_number": "Expwy Number",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.fwqname": "",
+      "block.junjietrafficmod.horrearend": "追尾危险（双柱式）",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.exit_redit.label_export_name": "Export Name",
+      "block.junjietrafficmod.pillar_cross_3": "白色竖杆侧顶接口",
+      "block.junjietrafficmod.exitnow": "出口预告下0m",
+      "gui.junjietrafficmod.strict_road_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.exit_number_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.cross_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.cross_edit.label_right_lead_road": "Right lead road",
+      "gui.junjietrafficmod.expwy_gedit.label_expwy_name": "Expwy Name",
+      "gui.junjietrafficmod.fwq_22_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.bad_weather": "雨雪雾天（悬臂式）",
+      "block.junjietrafficmod.gantry_g_inter_right": "枢纽右侧去向（国家高速）",
+      "block.junjietrafficmod.service_area_entrance": "服务区入口",
+      "block.junjietrafficmod.sid_etollgate_500m": "收费站500m预告（悬臂型）",
+      "gui.junjietrafficmod.interchange_info_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.cross_edit.label_straightroad_pinyin": "Straightroad pinyin",
+      "gui.junjietrafficmod.intergoing_edit.label_exit_number": "Exit number",
+      "block.junjietrafficmod.horkeepspace": "车距确认（双柱式）",
+      "gui.junjietrafficmod.bridge_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.place_report.label_distance": "Distance",
+      "gui.junjietrafficmod.cross_edit.leftleadroad": "",
+      "gui.junjietrafficmod.exit_number_edit.label_exit_number": "Exit Number",
+      "gui.junjietrafficmod.tunnel_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.nextexit_edit.pinyin": "",
+      "gui.junjietrafficmod.exit_number_edit.fwqname": "",
+      "block.junjietrafficmod.gantry_s_inter_right": "枢纽右侧去向（省高速）",
+      "gui.junjietrafficmod.bridge_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.survice_area_edit.label_tunnel_name": "Tunnel Name",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_expwy_name": "Expwy Name",
+      "block.junjietrafficmod.entrance_e_1_s": "高速公路入口 顶 省级高速",
+      "gui.junjietrafficmod.tunnel_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.barrier_edit.length": "",
+      "block.junjietrafficmod.gantry_expwy_gnumber": "国家高速公路起点编号（龙门架）",
+      "block.junjietrafficmod.exit_1km": "出口预告下1km",
+      "gui.junjietrafficmod.cross_edit.rightleadroad": "",
+      "gui.junjietrafficmod.intergoing_edit.exitnumber": "",
+      "gui.junjietrafficmod.nextexit_edit.distance": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_b_pinyin": "Place B Pinyin",
+      "gui.junjietrafficmod.cross_edit.straightleadroad": "",
+      "gui.junjietrafficmod.exit_nedit.label_road_name": "Road Name",
+      "block.junjietrafficmod.fwq_1": "服务区预告 上",
+      "gui.junjietrafficmod.exitplacereport.button_edit": "Save change",
+      "gui.junjietrafficmod.intergoing_edit.label_export_name": "Export name",
+      "gui.junjietrafficmod.exit_nedit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.place_report.placecname": "",
+      "gui.junjietrafficmod.nextexit_edit.bridgename": "",
+      "gui.junjietrafficmod.barrier_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.fwq_22_edit.fwqdistance": "",
+      "gui.junjietrafficmod.tunnel_edit.fwqdistance": "",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.expwyname": "",
+      "block.junjietrafficmod.truckright": "大型车靠右（悬臂式）",
+      "gui.junjietrafficmod.interchange_info_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.expwy_entrance_s_1.roadnumber": "G312 \u0026 S216 \u0026 X030 \u0026 Y107",
+      "block.junjietrafficmod.left_arrow_side": "左箭头（悬臂版）",
+      "gui.junjietrafficmod.exit_redit.exportname": "",
+      "gui.junjietrafficmod.intergoing_edit.label_expwy_number": "Expwy number",
+      "gui.junjietrafficmod.place_report.placebname": "",
+      "gui.junjietrafficmod.tunnel_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.exitplacereport.surviceareaname": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_gantry_pile_number": "Gantry pile number",
+      "gui.junjietrafficmod.intergoing_edit.exportname": "",
+      "gui.junjietrafficmod.cross_edit.leftroaddistance": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_export_name": "Export Name",
+      "block.junjietrafficmod.entrance_e_1_g": "高速公路入口 顶 国家高速",
+      "block.junjietrafficmod.pillarwhite": "白色竖杆",
+      "gui.junjietrafficmod.exitplacereport.pinyin": "",
+      "gui.junjietrafficmod.intergoing_edit.distance": "",
+      "gui.junjietrafficmod.expwy_sedit.province": "",
+      "block.junjietrafficmod.exit_2km": "出口预告下2km",
+      "block.junjietrafficmod.gantry_pillar_base": "龙门架侧杆",
+      "block.junjietrafficmod.gantry_g_inter_left": "枢纽左侧去向（国家高速）",
+      "gui.junjietrafficmod.mileage_edit.mileage": "",
+      "gui.junjietrafficmod.expwy_entrance_s_1.button_edit": "Save change",
+      "gui.junjietrafficmod.cross_edit.label_rightroad_pinyin": "Rightroad pinyin",
+      "block.junjietrafficmod.exitreport": "绕城高速出口预告（悬臂式）",
+      "gui.junjietrafficmod.fwq_21_edit.expwynumber": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_start_end": "Start \u0026 End",
+      "gui.junjietrafficmod.bridge_edit.label_bridge_name": "Bridge Name",
+      "block.junjietrafficmod.mileage_rxy": "普通公路里程牌（县乡道）",
+      "block.junjietrafficmod.nextexit": "下一出口（悬臂式）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_province": "Province",
+      "block.junjietrafficmod.straight_arrow": "直行箭头（单柱版）",
+      "gui.junjietrafficmod.gantry_speed_limit.roadname": "",
+      "gui.junjietrafficmod.survice_area_edit.length": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.exportname": "",
+      "block.junjietrafficmod.gantry_g_inter_straight": "枢纽直行去向（国家高速）",
+      "gui.junjietrafficmod.exit_number_edit.button_edit": "Save change",
+      "block.junjietrafficmod.bridge": "桥梁长度（悬臂式）",
+      "gui.junjietrafficmod.mileage_edit.roadnumber": "G312 \u0026 S216 \u0026 X030 \u0026 Y107",
+      "gui.junjietrafficmod.interchange_info_edit.exporta": "",
+      "gui.junjietrafficmod.fwq_21_edit.province": "",
+      "gui.junjietrafficmod.interchange_info_edit.exportb": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.expwynumber": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.gantrypilenumber": "",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_exit_number": "Exit number",
+      "gui.junjietrafficmod.gantry_speed_limit.minimumspeed": "",
+      "block.junjietrafficmod.strict_road_2": "严管路段（标题黄色强调）（立柱型）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.nextexit_edit.exitnumber": "",
+      "gui.junjietrafficmod.barrier_edit.fwqname": "",
+      "gui.junjietrafficmod.service_area_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.cross_edit.label_leftroad_pinyin": "Leftroad pinyin",
+      "gui.junjietrafficmod.cross_edit.fwqname": "",
+      "gui.junjietrafficmod.cross_edit.rightroaddistance": "",
+      "gui.junjietrafficmod.expwy_gedit.button_edit": "Save change",
+      "gui.junjietrafficmod.expwy_gedit.label_first_line": "First Line",
+      "gui.junjietrafficmod.exit_redit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.nextexit_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.expwy_sedit.button_edit": "Save change",
+      "block.junjietrafficmod.callphone_2": "电话2（单柱式）",
+      "block.junjietrafficmod.callphone_1": "电话1（单柱式）",
+      "block.junjietrafficmod.right_arrow": "右箭头（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber2": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber3": "",
+      "gui.junjietrafficmod.place_report.fwqname": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber1": "",
+      "gui.junjietrafficmod.cross_edit.straightroaddistance": "",
+      "block.junjietrafficmod.sid_etollgate_0m": "收费站0m预告（悬臂型）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber": "",
+      "block.junjietrafficmod.straight_arrow_side": "直行箭头（悬臂版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.gantry_speed_limit.mileage": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_gantry_pile_number": "Gantry pile number",
+      "gui.junjietrafficmod.mileage_edit.exportname": "地名",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.province": "",
+      "block.junjietrafficmod.entrance_e_2": "高速公路入口 中",
+      "gui.junjietrafficmod.expwy_export_report_edit.branchnumber": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_road_number": "Road number",
+      "gui.junjietrafficmod.exit_number_edit.exitnumber": "",
+      "gui.junjietrafficmod.cross_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.expwy_gedit.secondline": "",
+      "block.junjietrafficmod.limit_car": "行车道限速（龙门架版）",
+      "gui.junjietrafficmod.expwy_entrance_s_1.exportname": "地名",
+      "block.junjietrafficmod.gantry_s_inter_straight": "枢纽直行去向（省高速）",
+      "block.junjietrafficmod.strict_road": "严管路段（立柱型）",
+      "gui.junjietrafficmod.interchange_info_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.expwy_s": "省级高速公路标识（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname1": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname3": "",
+      "block.junjietrafficmod.expwy_g": "国家高速公路标识（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname2": "",
+      "gui.junjietrafficmod.place_report.button_edit": "Save change",
+      "gui.junjietrafficmod.exit_nedit.label_first_line": "First Line",
+      "block.junjietrafficmod.exitxy": "出口预告上（县乡道+1地名）",
+      "gui.junjietrafficmod.exit_gsx_yedit.roadnumber": "",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_expwy_number": "Expwy Number",
+      "gui.junjietrafficmod.cross_edit.label_direction": "Direction",
+      "gui.junjietrafficmod.road_number_edit.inter1km": "67",
+      "gui.junjietrafficmod.place_report.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.interchange_edit.label_exit_number": "Exit number",
+      "block.junjietrafficmod.road_g": "国道标识（单柱版）",
+      "gui.junjietrafficmod.mileage_edit.roadname": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.strict_road_edit.fwqdistance": "",
+      "block.junjietrafficmod.tip_9": "提示牌9-严禁倒车",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.fwqdistance": "",
+      "gui.junjietrafficmod.intergoing_edit.direction": "",
+      "block.junjietrafficmod.tip_2": "提示牌2-前方出口",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.fwqname": "",
+      "block.junjietrafficmod.tip_1": "提示牌1-大车靠右",
+      "gui.junjietrafficmod.road_number_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.road_s": "省道标识（单柱版）",
+      "block.junjietrafficmod.tip_4": "提示牌4-应急车道",
+      "block.junjietrafficmod.tip_3": "提示牌3-疲劳驾驶",
+      "block.junjietrafficmod.tip_6": "提示牌6-超员超载",
+      "block.junjietrafficmod.tip_5": "提示牌5-黄牌车辆",
+      "block.junjietrafficmod.tip_8": "提示牌8-全程监控",
+      "gui.junjietrafficmod.expwy_entrance_s_1.expwynumber": "",
+      "gui.junjietrafficmod.strict_road_edit.roadname": "",
+      "block.junjietrafficmod.tip_7": "提示牌7-前方弯道",
+      "block.junjietrafficmod.horkeep_0": "车距确认0格",
+      "block.junjietrafficmod.interchange_1km": "前方枢纽1km（双柱式）",
+      "gui.junjietrafficmod.intergoing_edit.province": "",
+      "gui.junjietrafficmod.tunnel_edit.length": "",
+      "block.junjietrafficmod.road_exit_straight": "公路出口处直行去向",
+      "block.junjietrafficmod.entrance_e_3l": "高速公路入口 下 入口左",
+      "gui.junjietrafficmod.nextexit_edit.label_export_name": "Export name",
+      "gui.junjietrafficmod.intergoing_edit.label_second_line": "Second line",
+      "block.junjietrafficmod.entrance_e_3r": "高速公路入口 下 入口右",
+      "gui.junjietrafficmod.gantry_speed_limit.button_edit": "Save change",
+      "gui.junjietrafficmod.cross_edit.label_rightroad_distance": "Rightroad Distance",
+      "gui.junjietrafficmod.expwy_export_report_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.exitplacereport.label_pinyin": "Pinyin",
+      "block.junjietrafficmod.gantry_expwy_begin": "高速公路起点（龙门架）",
+      "gui.junjietrafficmod.gantry_speed_limit.label_road_nameroad_number": "road name\u0026road number",
+      "block.junjietrafficmod.left_arrow": "左箭头（单柱版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.strict_road_edit.roadsection": "",
+      "gui.junjietrafficmod.interchange_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_branch_number": "Branch number",
+      "gui.junjietrafficmod.expwy_export_report_edit.expwyname": "",
+      "gui.junjietrafficmod.tunnel_edit.label_length": "Length",
+      "gui.junjietrafficmod.cross_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.place_report.label_distance2": "Distance",
+      "gui.junjietrafficmod.place_report.label_distance1": "Distance",
+      "block.junjietrafficmod.hordrivetiredly": "请勿疲劳驾驶（双柱式）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname": "",
+      "block.junjietrafficmod.right_arrow_side": "右箭头（悬臂版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.strict_road_edit.label_distance": "Distance",
+      "block.junjietrafficmod.water_protect_2": "饮用水水源保护2",
+      "block.junjietrafficmod.sid_enophone": "请勿接打电话（悬臂型）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.expwynumber": "",
+      "gui.junjietrafficmod.survice_area_edit.label_length": "Length",
+      "block.junjietrafficmod.water_protect_1": "饮用水水源保护1",
+      "block.junjietrafficmod.water_protect_4": "饮用水水源保护4",
+      "block.junjietrafficmod.interchange_2km": "前方枢纽2km（双柱式）",
+      "gui.junjietrafficmod.exit_nedit.secondline": "",
+      "gui.junjietrafficmod.road_number_edit.label_road_number": "Road Number",
+      "gui.junjietrafficmod.cross_edit.direction": "",
+      "block.junjietrafficmod.water_protect_3": "饮用水水源保护3",
+      "gui.junjietrafficmod.exit_nedit.label_second_line": "Second Line",
+      "gui.junjietrafficmod.interchange_info_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_sedit.label_expwy_number": "Expwy Number",
+      "block.junjietrafficmod.basswhite": "白色竖杆底座",
+      "gui.junjietrafficmod.intergoing_edit.expwynumber": "",
+      "block.junjietrafficmod.road_exit_right": "公路出口处右转去向",
+      "gui.junjietrafficmod.gantry_pile_number_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.exitplacereport.placebpinyin": "",
+      "gui.junjietrafficmod.road_number_edit.button_edit": "Save change",
+      "block.junjietrafficmod.sidedrivetiredly": "请勿疲劳驾驶（悬臂式）",
+      "block.junjietrafficmod.road_side_xy": "县乡道标识（悬臂版）",
+      "gui.junjietrafficmod.gantry_speed_limit.label_mileage": "mileage",
+      "gui.junjietrafficmod.nextexit_edit.length": "",
+      "gui.junjietrafficmod.intergoing_edit.label_distance": "Distance",
+      "gui.junjietrafficmod.nextexit_edit.label_bridge_name": "Bridge Name",
+      "block.junjietrafficmod.horkeep_15": "车距确认15格",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.cross_edit.straightroadpinyin": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.button_edit": "Save change",
+      "gui.junjietrafficmod.bridge_edit.label_pinyin": "Pinyin",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance1": "",
+      "gui.junjietrafficmod.gantry_speed_limit.maximumspeed": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance3": "",
+      "gui.junjietrafficmod.exit_nedit.firstline": "",
+      "gui.junjietrafficmod.interchange_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance2": "",
+      "gui.junjietrafficmod.fwq_21_edit.label_province": "Province",
+      "gui.junjietrafficmod.barrier_edit.fwqdistance": "",
+      "gui.junjietrafficmod.survice_area_edit.tunnelname": "",
+      "block.junjietrafficmod.expwy_exit_right": "高速出口处右转去向",
+      "gui.junjietrafficmod.interchange_info_edit.straight": "",
+      "gui.junjietrafficmod.nextexit_edit.label_exit_number": "Exit number",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.siderearend": "追尾危险（悬臂式）",
+      "block.junjietrafficmod.sid_eweighingstation": "测重站点（悬臂型）",
+      "gui.junjietrafficmod.nextexit_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.fwq_21_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_exit_number": "Exit number",
+      "block.junjietrafficmod.sid_ebarrier": "半封闭声屏障信息（悬臂型）",
+      "gui.junjietrafficmod.exit_nedit.label_export_name": "Export Name",
+      "gui.junjietrafficmod.interchange_edit.inter1km": "",
+      "gui.junjietrafficmod.exitplacereport.placeapinyin": "",
+      "gui.junjietrafficmod.service_area_edit.pinyin": "",
+      "gui.junjietrafficmod.cross_edit.label_straightroad_distance": "Straightroad Distance",
+      "gui.junjietrafficmod.gantry_speed_limit.label_minimum_speed": "Minimum speed",
+      "gui.junjietrafficmod.mileage_edit.label_road_number": "Road number",
+      "block.junjietrafficmod.exit_500m": "出口预告下500m",
+      "gui.junjietrafficmod.cross_edit.label_straight_lead_road": "Straight lead road",
+      "gui.junjietrafficmod.gantry_speed_limit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.expwynumber": "",
+      "gui.junjietrafficmod.tunnel_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.intergoing_edit.button_edit": "Save change",
+      "block.junjietrafficmod.gantry_expwy_snumber": "省级高速公路起点编号（龙门架）",
+      "gui.junjietrafficmod.exit_number_edit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.fwq_22_edit.label_start_end": "Start \u0026 End",
+      "gui.junjietrafficmod.cross_edit.label_service_area_name": "Service Area Name",
+      "gui.junjietrafficmod.exit_nedit.button_edit": "Save change",
+      "gui.junjietrafficmod.cross_edit.leftroadpinyin": "",
+      "block.junjietrafficmod.gantry_pile_number": "龙门架桩号",
+      "block.junjietrafficmod.limit_emergency": "应急车道限速（龙门架版）",
+      "gui.junjietrafficmod.exit_nedit.exportname": "",
+      "block.junjietrafficmod.sidekeepspace": "保持车距（悬臂式）",
+      "gui.junjietrafficmod.bridge_edit.length": "",
+      "block.junjietrafficmod.carmodellimit_addon": "分车型限速（附加-全程限速）",
+      "block.junjietrafficmod.gantry_expwy_end": "高速公路终点（龙门架）",
+      "gui.junjietrafficmod.expwy_gedit.label_sign_text_edit": "Sign text edit",
+      "block.junjietrafficmod.gantry_pillar_top": "龙门架顶横杆",
+      "gui.junjietrafficmod.fwq_22_edit.stardandend": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.mileage_edit.label_road_nameroad_number": "road name\u0026road number",
+      "gui.junjietrafficmod.cross_edit.rightroadpinyin": "",
+      "gui.junjietrafficmod.tunnel_edit.label_tunnel_name": "Tunnel Name",
+      "gui.junjietrafficmod.exitplacereport.label_survice_area_name": "Survice Area Name",
+      "gui.junjietrafficmod.expwy_sedit.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.fwq_21_edit.label_service_area_name": "Service Area Name",
+      "block.junjietrafficmod.tlight_l_2": "交通灯左2",
+      "block.junjietrafficmod.exit_number_show": "出口编号提醒",
+      "block.junjietrafficmod.tlight_l_1": "交通灯左1",
+      "block.junjietrafficmod.tlight_l_3": "交通灯左3",
+      "gui.junjietrafficmod.cross_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_sedit.firstline": "地名1",
+      "gui.junjietrafficmod.expwy_export_report_edit.expwynumber": "",
+      "gui.junjietrafficmod.cross_edit.label_name_of_the_road": "Name of the road",
+      "gui.junjietrafficmod.intergoing_edit.label_first_line": "First line",
+      "gui.junjietrafficmod.strict_road_edit.label_road_name": "Road Name",
+      "gui.junjietrafficmod.place_report.distancea": "",
+      "gui.junjietrafficmod.place_report.distanceb": "",
+      "gui.junjietrafficmod.place_report.distancec": "",
+      "gui.junjietrafficmod.strict_road_edit.label_road_section": "Road section",
+      "gui.junjietrafficmod.interchange_info_edit.button_edit": "Save change",
+      "gui.junjietrafficmod.expwy_entrance_2.gantrypilenumber": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_b": "Place B",
+      "gui.junjietrafficmod.nextexit_edit.exportname": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_a": "Place A",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_sign_text_edit": "Sign text edit",
+      "gui.junjietrafficmod.cross_edit.nameoftheroad": "",
+      "block.junjietrafficmod.bassblue": "蓝色竖杆底座",
+      "block.junjietrafficmod.horkeep_30": "车距确认30格",
+      "gui.junjietrafficmod.barrier_edit.button_edit": "Save change",
+      "block.junjietrafficmod.pillarblue": "蓝色竖杆",
+      "gui.junjietrafficmod.expwy_entrance_2.stardandend": ""
+    },
+    "zh_cn": {
+      "gui.junjietrafficmod.road_number_edit.label_exit_number": "出口编号",
+      "block.junjietrafficmod.exitr": "出口预告上（路名+1地名）",
+      "gui.junjietrafficmod.interchange_info_edit.fwqname": "",
+      "gui.junjietrafficmod.place_report.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_gantry_pile_number": "龙门架桩号编号",
+      "block.junjietrafficmod.exitn": "出口预告上（无附加+2地名）",
+      "block.junjietrafficmod.exitg": "出口预告上（国道+1地名）",
+      "block.junjietrafficmod.ho_rplacereport": "地区预告（双柱式）",
+      "gui.junjietrafficmod.interchange_info_edit.label_export_b": "出口B",
+      "gui.junjietrafficmod.bridge_edit.pinyin": "",
+      "gui.junjietrafficmod.interchange_info_edit.label_export_a": "出口A",
+      "gui.junjietrafficmod.fwq_21_edit.fwqname": "",
+      "block.junjietrafficmod.sid_etunnel": "隧道信息（悬臂型）",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_export_name": "",
+      "gui.junjietrafficmod.gantry_pile_number_edit.gantrypilenumber": "",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.exits": "出口预告上（省道+1地名）",
+      "gui.junjietrafficmod.exit_redit.label_road_number": "道路编号",
+      "block.junjietrafficmod.mileage_r": "高速公路里程牌",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_distance": "距离",
+      "gui.junjietrafficmod.place_report.label_place_b": "地点B",
+      "gui.junjietrafficmod.place_report.label_place_c": "地点C",
+      "gui.junjietrafficmod.expwy_entrance_2.button_edit": "保存更改",
+      "gui.junjietrafficmod.exit_redit.roadname": "",
+      "gui.junjietrafficmod.bridge_edit.surviceareaname": "",
+      "gui.junjietrafficmod.place_report.label_place_a": "地点A",
+      "gui.junjietrafficmod.expwy_entrance_s_1.province": "",
+      "gui.junjietrafficmod.cross_edit.label_left_lead_road": "左侧通向道路名称",
+      "block.junjietrafficmod.seatbelt": "安全带（立柱型）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_distance": "距离",
+      "gui.junjietrafficmod.mileage_edit.label_mileage": "里程数",
+      "gui.junjietrafficmod.fwq_22_edit.fwqname": "",
+      "gui.junjietrafficmod.fwq_22_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.exitplacereport.placeaname": "",
+      "gui.junjietrafficmod.gantry_speed_limit.label_maximum_speed": "最高限速",
+      "block.junjietrafficmod.interchange_a_1": "枢纽信息A无距离（立柱型）",
+      "block.junjietrafficmod.interchange_a_2": "枢纽信息A1.5km（立柱型）",
+      "gui.junjietrafficmod.expwy_sedit.label_province": "所属省份（X高速）",
+      "gui.junjietrafficmod.service_area_edit.label_pinyin": "拼音",
+      "gui.junjietrafficmod.cross_edit.label_leftroad_distance": "左侧通向道路距离",
+      "block.junjietrafficmod.mileage_rn": "普通公路里程牌（自定义路名）",
+      "block.junjietrafficmod.sid_eexitnumber": "出口编号（用于悬臂上附加）",
+      "gui.junjietrafficmod.place_report.placea": "",
+      "gui.junjietrafficmod.intergoing_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.mileage_rs": "普通公路里程牌（省道）",
+      "gui.junjietrafficmod.fwq_21_edit.label_expwy_number": "",
+      "gui.junjietrafficmod.service_area_edit.surviceareaname": "",
+      "gui.junjietrafficmod.place_report.fwqdistance": "",
+      "gui.junjietrafficmod.strict_road_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.sid_ecross_1": "普通公路指路牌A（立柱型）",
+      "block.junjietrafficmod.sid_ecross_2": "普通公路指路牌B（立柱型）",
+      "block.junjietrafficmod.mileage_rg": "普通公路里程牌（国道）",
+      "block.junjietrafficmod.sid_ecross_3": "普通公路指路牌C（立柱型）",
+      "block.junjietrafficmod.sid_ecross_4": "普通公路指路牌D（立柱型）",
+      "gui.junjietrafficmod.exitplacereport.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.cross_3": "车道指引-左转(龙门架)",
+      "block.junjietrafficmod.cross_2": "车道指引-掉头\u0026左转(龙门架)",
+      "gui.junjietrafficmod.exit_redit.roadnumber": "",
+      "block.junjietrafficmod.cross_1": "车道指引-掉头(龙门架)",
+      "gui.junjietrafficmod.mileage_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.nextexit_edit.label_length": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_expwy_number": "高速编号",
+      "block.junjietrafficmod.tlight_3": "交通灯底3",
+      "block.junjietrafficmod.tlight_2": "交通灯底2",
+      "block.junjietrafficmod.tlight_1": "交通灯底1",
+      "block.junjietrafficmod.interchange_b_1": "枢纽信息B无距离（立柱型）",
+      "block.junjietrafficmod.tlight_6": "交通灯底6",
+      "block.junjietrafficmod.interchange_b_2": "枢纽信息B1.5km（立柱型）",
+      "block.junjietrafficmod.tlight_5": "交通灯底5",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_expwy_number": "高速公路编号",
+      "block.junjietrafficmod.tlight_4": "交通灯底4",
+      "gui.junjietrafficmod.bridge_edit.label_length": "长度",
+      "block.junjietrafficmod.cross_7": "车道指引-右转(龙门架)",
+      "block.junjietrafficmod.cross_6": "车道指引-直行\u0026右转(龙门架)",
+      "block.junjietrafficmod.cross_5": "车道指引-直行(龙门架)",
+      "block.junjietrafficmod.cross_4": "车道指引-左转\u0026直行(龙门架)",
+      "gui.junjietrafficmod.tunnel_edit.fwqname": "",
+      "gui.junjietrafficmod.service_area_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.fwq_22_edit.label_distance": "距离",
+      "gui.junjietrafficmod.expwy_gedit.label_second_line": "",
+      "block.junjietrafficmod.tip_14": "提示牌14-桥面结冰",
+      "block.junjietrafficmod.tip_13": "提示牌13-集中精力",
+      "gui.junjietrafficmod.expwy_entrance_g_1.button_edit": "保存更改",
+      "gui.junjietrafficmod.exitplacereport.placebname": "",
+      "block.junjietrafficmod.tip_12": "提示牌12-连续下坡",
+      "block.junjietrafficmod.tip_11": "提示牌11-出口车辆",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.intergoing_edit.label_direction": "方向",
+      "block.junjietrafficmod.tip_10": "提示牌10-严禁违停",
+      "block.junjietrafficmod.limit_truck": "客货车道限速（龙门架版）",
+      "gui.junjietrafficmod.barrier_edit.label_distance": "距离",
+      "gui.junjietrafficmod.barrier_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.intergoing_edit.firstline": "",
+      "block.junjietrafficmod.road_xy": "县乡道标识（单柱版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.fwqdistance": "",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_expwy_number": "高速公路编号",
+      "gui.junjietrafficmod.bridge_edit.bridgename": "",
+      "gui.junjietrafficmod.strict_road_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.nextexit_edit.label_pinyin": "",
+      "block.junjietrafficmod.road_side_g": "国道标识（悬臂版）",
+      "block.junjietrafficmod.gantry_s_inter_left": "枢纽左侧去向（省高速）",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_road_number": "",
+      "gui.junjietrafficmod.intergoing_edit.label_province": "所属省份",
+      "gui.junjietrafficmod.exit_nedit.roadnumber": "",
+      "block.junjietrafficmod.tlight_r": "交通灯右1",
+      "gui.junjietrafficmod.expwy_sedit.label_expwy_name": "高速公路名称",
+      "gui.junjietrafficmod.exit_number_edit.label_service_area_name": "服务区名称",
+      "block.junjietrafficmod.gantry_pillar_high": "龙门架侧杆顶",
+      "gui.junjietrafficmod.mileage_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_expwy_name": "高速名称",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_expwy_number": "高速公路编号",
+      "gui.junjietrafficmod.mileage_edit.label_export_name": "",
+      "block.junjietrafficmod.carmodellimitpart_1": "分车型限速（上）",
+      "block.junjietrafficmod.carmodellimitpart_2": "分车型限速（下）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.expwyname": "",
+      "block.junjietrafficmod.fwq_21": "服务区预告 下 带箭头",
+      "gui.junjietrafficmod.bridge_edit.label_survice_area_name": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance": "",
+      "block.junjietrafficmod.fwq_22": "服务区预告 下 自定义距离",
+      "gui.junjietrafficmod.intergoing_edit.secondline": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_a_pinyin": "地点A拼音",
+      "gui.junjietrafficmod.exit_redit.button_edit": "保存更改",
+      "block.junjietrafficmod.road_side_s": "省道标识（悬臂版）",
+      "gui.junjietrafficmod.fwq_21_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_expwy_name": "高速公路名称",
+      "block.junjietrafficmod.pillar_side": "白色横杆",
+      "gui.junjietrafficmod.barrier_edit.label_length": "长度",
+      "block.junjietrafficmod.guo_3noout": "国三禁止驶出",
+      "gui.junjietrafficmod.road_number_edit.roadnumber": "",
+      "gui.junjietrafficmod.exit_redit.label_road_name": "路名",
+      "gui.junjietrafficmod.interchange_info_edit.label_straight": "直行",
+      "gui.junjietrafficmod.exit_number_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_gedit.firstline": "",
+      "gui.junjietrafficmod.service_area_edit.label_survice_area_name": "服务区名称",
+      "item_group.junjietrafficmod.tlight": "Junjie的交通模组",
+      "gui.junjietrafficmod.fwq_22_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.expwy_sedit.secondline": "",
+      "block.junjietrafficmod.exit_3km": "出口预告下3km",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_export_name": "出口名称",
+      "gui.junjietrafficmod.exit_r_nedit.label_road_number": "道路编号",
+      "gui.junjietrafficmod.gantry_pile_number_edit.inter1km": "",
+      "gui.junjietrafficmod.strict_road_edit.fwqname": "",
+      "gui.junjietrafficmod.nextexit_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.land_slide_area": "滑坡路段（悬臂式）",
+      "block.junjietrafficmod.expwy_exit_straight": "高速出口处直行去向",
+      "gui.junjietrafficmod.tunnel_edit.tunnelname": "",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_province": "所属省份",
+      "block.junjietrafficmod.entrance_e_3500m": "高速公路入口 下 入口500m",
+      "gui.junjietrafficmod.expwy_gedit.label_expwy_number": "高速公路编号",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.fwqname": "",
+      "block.junjietrafficmod.horrearend": "追尾危险（双柱式）",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.exit_redit.label_export_name": "出口名称",
+      "block.junjietrafficmod.pillar_cross_3": "白色竖杆侧顶接口",
+      "block.junjietrafficmod.exitnow": "出口预告下0m",
+      "gui.junjietrafficmod.strict_road_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.exit_number_edit.label_distance": "距离",
+      "gui.junjietrafficmod.cross_edit.label_distance": "距离",
+      "gui.junjietrafficmod.cross_edit.label_right_lead_road": "右侧通向道路名称",
+      "gui.junjietrafficmod.expwy_gedit.label_expwy_name": "高速公路名称",
+      "gui.junjietrafficmod.fwq_22_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.bad_weather": "雨雪雾天（悬臂式）",
+      "block.junjietrafficmod.gantry_g_inter_right": "枢纽右侧去向（国家高速）",
+      "block.junjietrafficmod.service_area_entrance": "服务区入口",
+      "block.junjietrafficmod.sid_etollgate_500m": "收费站500m预告（悬臂型）",
+      "gui.junjietrafficmod.interchange_info_edit.label_distance": "距离",
+      "gui.junjietrafficmod.cross_edit.label_straightroad_pinyin": "直行通向道路拼音",
+      "gui.junjietrafficmod.intergoing_edit.label_exit_number": "出口编号",
+      "block.junjietrafficmod.horkeepspace": "车距确认（双柱式）",
+      "gui.junjietrafficmod.bridge_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.place_report.label_distance": "距离",
+      "gui.junjietrafficmod.cross_edit.leftleadroad": "",
+      "gui.junjietrafficmod.exit_number_edit.label_exit_number": "出口编号",
+      "gui.junjietrafficmod.tunnel_edit.label_distance": "距离",
+      "gui.junjietrafficmod.nextexit_edit.pinyin": "",
+      "gui.junjietrafficmod.exit_number_edit.fwqname": "",
+      "block.junjietrafficmod.gantry_s_inter_right": "枢纽右侧去向（省高速）",
+      "gui.junjietrafficmod.bridge_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.survice_area_edit.label_tunnel_name": "",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_expwy_name": "高速公路名称",
+      "block.junjietrafficmod.entrance_e_1_s": "高速公路入口 顶 省级高速",
+      "gui.junjietrafficmod.tunnel_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.barrier_edit.length": "",
+      "block.junjietrafficmod.gantry_expwy_gnumber": "国家高速公路起点编号（龙门架）",
+      "block.junjietrafficmod.exit_1km": "出口预告下1km",
+      "gui.junjietrafficmod.cross_edit.rightleadroad": "",
+      "gui.junjietrafficmod.intergoing_edit.exitnumber": "",
+      "gui.junjietrafficmod.nextexit_edit.distance": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_b_pinyin": "地点B拼音",
+      "gui.junjietrafficmod.cross_edit.straightleadroad": "",
+      "gui.junjietrafficmod.exit_nedit.label_road_name": "",
+      "block.junjietrafficmod.fwq_1": "服务区预告 上",
+      "gui.junjietrafficmod.exitplacereport.button_edit": "保存更改",
+      "gui.junjietrafficmod.intergoing_edit.label_export_name": "出口名称",
+      "gui.junjietrafficmod.exit_nedit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.place_report.placecname": "",
+      "gui.junjietrafficmod.nextexit_edit.bridgename": "",
+      "gui.junjietrafficmod.barrier_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.fwq_22_edit.fwqdistance": "",
+      "gui.junjietrafficmod.tunnel_edit.fwqdistance": "",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.expwyname": "",
+      "block.junjietrafficmod.truckright": "大型车靠右（悬臂式）",
+      "gui.junjietrafficmod.interchange_info_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.expwy_entrance_s_1.roadnumber": "",
+      "block.junjietrafficmod.left_arrow_side": "左箭头（悬臂版）",
+      "gui.junjietrafficmod.exit_redit.exportname": "",
+      "gui.junjietrafficmod.intergoing_edit.label_expwy_number": "高速编号",
+      "gui.junjietrafficmod.place_report.placebname": "",
+      "gui.junjietrafficmod.tunnel_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.exitplacereport.surviceareaname": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_gantry_pile_number": "",
+      "gui.junjietrafficmod.intergoing_edit.exportname": "",
+      "gui.junjietrafficmod.cross_edit.leftroaddistance": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_export_name": "出口名称",
+      "block.junjietrafficmod.entrance_e_1_g": "高速公路入口 顶 国家高速",
+      "block.junjietrafficmod.pillarwhite": "白色竖杆",
+      "gui.junjietrafficmod.exitplacereport.pinyin": "",
+      "gui.junjietrafficmod.intergoing_edit.distance": "",
+      "gui.junjietrafficmod.expwy_sedit.province": "",
+      "block.junjietrafficmod.exit_2km": "出口预告下2km",
+      "block.junjietrafficmod.gantry_pillar_base": "龙门架侧杆",
+      "block.junjietrafficmod.gantry_g_inter_left": "枢纽左侧去向（国家高速）",
+      "gui.junjietrafficmod.mileage_edit.mileage": "",
+      "gui.junjietrafficmod.expwy_entrance_s_1.button_edit": "保存更改",
+      "gui.junjietrafficmod.cross_edit.label_rightroad_pinyin": "右侧通向道路拼音",
+      "block.junjietrafficmod.exitreport": "绕城高速出口预告（悬臂式）",
+      "gui.junjietrafficmod.fwq_21_edit.expwynumber": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_start_end": "起点\u0026终点",
+      "gui.junjietrafficmod.bridge_edit.label_bridge_name": "桥梁名称",
+      "block.junjietrafficmod.mileage_rxy": "普通公路里程牌（县乡道）",
+      "block.junjietrafficmod.nextexit": "下一出口（悬臂式）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_province": "所属省份",
+      "block.junjietrafficmod.straight_arrow": "直行箭头（单柱版）",
+      "gui.junjietrafficmod.gantry_speed_limit.roadname": "",
+      "gui.junjietrafficmod.survice_area_edit.length": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.exportname": "",
+      "block.junjietrafficmod.gantry_g_inter_straight": "枢纽直行去向（国家高速）",
+      "gui.junjietrafficmod.exit_number_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.bridge": "桥梁长度（悬臂式）",
+      "gui.junjietrafficmod.mileage_edit.roadnumber": "",
+      "gui.junjietrafficmod.interchange_info_edit.exporta": "",
+      "gui.junjietrafficmod.interchange_info_edit.exportb": "",
+      "gui.junjietrafficmod.fwq_21_edit.province": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.expwynumber": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.gantrypilenumber": "",
+      "gui.junjietrafficmod.gantry_pile_number_edit.label_exit_number": "",
+      "gui.junjietrafficmod.gantry_speed_limit.minimumspeed": "",
+      "block.junjietrafficmod.strict_road_2": "严管路段（标题黄色强调）（立柱型）",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.nextexit_edit.exitnumber": "",
+      "gui.junjietrafficmod.barrier_edit.fwqname": "",
+      "gui.junjietrafficmod.service_area_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.cross_edit.label_leftroad_pinyin": "左侧通向道路拼音",
+      "gui.junjietrafficmod.cross_edit.fwqname": "",
+      "gui.junjietrafficmod.cross_edit.rightroaddistance": "",
+      "gui.junjietrafficmod.expwy_gedit.button_edit": "保存更改",
+      "gui.junjietrafficmod.expwy_gedit.label_first_line": "",
+      "gui.junjietrafficmod.exit_redit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.nextexit_edit.label_distance": "距离",
+      "gui.junjietrafficmod.expwy_sedit.button_edit": "保存更改",
+      "block.junjietrafficmod.callphone_2": "电话2（单柱式）",
+      "block.junjietrafficmod.callphone_1": "电话1（单柱式）",
+      "block.junjietrafficmod.right_arrow": "右箭头（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber2": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber3": "",
+      "gui.junjietrafficmod.place_report.fwqname": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber1": "",
+      "gui.junjietrafficmod.cross_edit.straightroaddistance": "",
+      "block.junjietrafficmod.sid_etollgate_0m": "收费站0m预告（悬臂型）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exitnumber": "",
+      "block.junjietrafficmod.straight_arrow_side": "直行箭头（悬臂版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.gantry_speed_limit.mileage": "",
+      "gui.junjietrafficmod.expwy_entrance_g_1.label_gantry_pile_number": "",
+      "gui.junjietrafficmod.mileage_edit.exportname": "地名",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.province": "",
+      "block.junjietrafficmod.entrance_e_2": "高速公路入口 中",
+      "gui.junjietrafficmod.expwy_export_report_edit.branchnumber": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_road_number": "道路编号",
+      "gui.junjietrafficmod.exit_number_edit.exitnumber": "",
+      "gui.junjietrafficmod.cross_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.expwy_gedit.secondline": "",
+      "block.junjietrafficmod.limit_car": "行车道限速（龙门架版）",
+      "gui.junjietrafficmod.expwy_entrance_s_1.exportname": "地名",
+      "block.junjietrafficmod.gantry_s_inter_straight": "枢纽直行去向（省高速）",
+      "block.junjietrafficmod.strict_road": "严管路段（立柱型）",
+      "gui.junjietrafficmod.interchange_info_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.expwy_s": "省级高速公路标识（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname1": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname3": "",
+      "block.junjietrafficmod.expwy_g": "国家高速公路标识（单柱版）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname2": "",
+      "gui.junjietrafficmod.place_report.button_edit": "保存更改",
+      "gui.junjietrafficmod.exit_nedit.label_first_line": "第一行",
+      "block.junjietrafficmod.exitxy": "出口预告上（县乡道+1地名）",
+      "gui.junjietrafficmod.exit_gsx_yedit.roadnumber": "",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_expwy_number": "高速公路编号",
+      "gui.junjietrafficmod.cross_edit.label_direction": "方向",
+      "gui.junjietrafficmod.road_number_edit.inter1km": "",
+      "gui.junjietrafficmod.place_report.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.interchange_edit.label_exit_number": "出口编号",
+      "block.junjietrafficmod.road_g": "国道标识（单柱版）",
+      "gui.junjietrafficmod.mileage_edit.roadname": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.strict_road_edit.fwqdistance": "",
+      "block.junjietrafficmod.tip_9": "提示牌9-严禁倒车",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.fwqdistance": "",
+      "gui.junjietrafficmod.intergoing_edit.direction": "",
+      "block.junjietrafficmod.tip_2": "提示牌2-前方出口",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.fwqname": "",
+      "block.junjietrafficmod.tip_1": "提示牌1-大车靠右",
+      "gui.junjietrafficmod.road_number_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.road_s": "省道标识（单柱版）",
+      "block.junjietrafficmod.tip_4": "提示牌4-应急车道",
+      "block.junjietrafficmod.tip_3": "提示牌3-疲劳驾驶",
+      "block.junjietrafficmod.tip_6": "提示牌6-超员超载",
+      "block.junjietrafficmod.tip_5": "提示牌5-黄牌车辆",
+      "block.junjietrafficmod.tip_8": "提示牌8-全程监控",
+      "gui.junjietrafficmod.expwy_entrance_s_1.expwynumber": "",
+      "gui.junjietrafficmod.strict_road_edit.roadname": "",
+      "block.junjietrafficmod.tip_7": "提示牌7-前方弯道",
+      "block.junjietrafficmod.horkeep_0": "车距确认0格",
+      "block.junjietrafficmod.interchange_1km": "前方枢纽1km（双柱式）",
+      "gui.junjietrafficmod.intergoing_edit.province": "",
+      "gui.junjietrafficmod.tunnel_edit.length": "",
+      "block.junjietrafficmod.road_exit_straight": "公路出口处直行去向",
+      "block.junjietrafficmod.entrance_e_3l": "高速公路入口 下 入口左",
+      "gui.junjietrafficmod.nextexit_edit.label_export_name": "出口名称",
+      "gui.junjietrafficmod.intergoing_edit.label_second_line": "第二行",
+      "block.junjietrafficmod.entrance_e_3r": "高速公路入口 下 入口右",
+      "gui.junjietrafficmod.gantry_speed_limit.button_edit": "保存更改",
+      "gui.junjietrafficmod.cross_edit.label_rightroad_distance": "右侧通向道路距离",
+      "gui.junjietrafficmod.expwy_export_report_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.label_distance": "距离",
+      "gui.junjietrafficmod.exitplacereport.label_pinyin": "Pinyin",
+      "block.junjietrafficmod.gantry_expwy_begin": "高速公路起点（龙门架）",
+      "gui.junjietrafficmod.gantry_speed_limit.label_road_nameroad_number": "",
+      "block.junjietrafficmod.left_arrow": "左箭头（单柱版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.strict_road_edit.roadsection": "",
+      "gui.junjietrafficmod.interchange_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_branch_number": "支线编号",
+      "gui.junjietrafficmod.expwy_export_report_edit.expwyname": "",
+      "gui.junjietrafficmod.tunnel_edit.label_length": "长度",
+      "gui.junjietrafficmod.cross_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.place_report.label_distance2": "距离",
+      "gui.junjietrafficmod.place_report.label_distance1": "距离",
+      "block.junjietrafficmod.hordrivetiredly": "请勿疲劳驾驶（双柱式）",
+      "gui.junjietrafficmod.expwy_export_report_edit.exportname": "",
+      "block.junjietrafficmod.right_arrow_side": "右箭头（悬臂版）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.strict_road_edit.label_distance": "距离",
+      "block.junjietrafficmod.water_protect_2": "饮用水水源保护2",
+      "block.junjietrafficmod.sid_enophone": "请勿接打电话（悬臂型）",
+      "gui.junjietrafficmod.gantry_expwy_g_edit.expwynumber": "",
+      "gui.junjietrafficmod.survice_area_edit.label_length": "",
+      "block.junjietrafficmod.water_protect_1": "饮用水水源保护1",
+      "block.junjietrafficmod.water_protect_4": "饮用水水源保护4",
+      "block.junjietrafficmod.interchange_2km": "前方枢纽2km（双柱式）",
+      "gui.junjietrafficmod.exit_nedit.secondline": "",
+      "gui.junjietrafficmod.road_number_edit.label_road_number": "道路编号",
+      "gui.junjietrafficmod.cross_edit.direction": "",
+      "block.junjietrafficmod.water_protect_3": "饮用水水源保护3",
+      "gui.junjietrafficmod.exit_nedit.label_second_line": "第二行",
+      "gui.junjietrafficmod.interchange_info_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_sedit.label_expwy_number": "高速公路编号",
+      "block.junjietrafficmod.basswhite": "白色竖杆底座",
+      "gui.junjietrafficmod.intergoing_edit.expwynumber": "",
+      "block.junjietrafficmod.road_exit_right": "公路出口处右转去向",
+      "gui.junjietrafficmod.gantry_pile_number_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.exitplacereport.placebpinyin": "",
+      "gui.junjietrafficmod.road_number_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.sidedrivetiredly": "请勿疲劳驾驶（悬臂式）",
+      "block.junjietrafficmod.road_side_xy": "县乡道标识（悬臂版）",
+      "gui.junjietrafficmod.gantry_speed_limit.label_mileage": "",
+      "gui.junjietrafficmod.nextexit_edit.length": "",
+      "gui.junjietrafficmod.intergoing_edit.label_distance": "距离",
+      "gui.junjietrafficmod.nextexit_edit.label_bridge_name": "",
+      "block.junjietrafficmod.horkeep_15": "车距确认15格",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.cross_edit.straightroadpinyin": "",
+      "gui.junjietrafficmod.exit_gsx_yedit.button_edit": "保存更改",
+      "gui.junjietrafficmod.bridge_edit.label_pinyin": "拼音",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance1": "",
+      "gui.junjietrafficmod.gantry_speed_limit.maximumspeed": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance3": "",
+      "gui.junjietrafficmod.exit_nedit.firstline": "",
+      "gui.junjietrafficmod.interchange_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.expwy_export_report_edit.distance2": "",
+      "gui.junjietrafficmod.fwq_21_edit.label_province": "",
+      "gui.junjietrafficmod.barrier_edit.fwqdistance": "",
+      "gui.junjietrafficmod.survice_area_edit.tunnelname": "",
+      "block.junjietrafficmod.expwy_exit_right": "高速出口处右转去向",
+      "gui.junjietrafficmod.interchange_info_edit.straight": "",
+      "gui.junjietrafficmod.nextexit_edit.label_exit_number": "出口编号",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.siderearend": "追尾危险（悬臂式）",
+      "block.junjietrafficmod.sid_eweighingstation": "测重站点（悬臂型）",
+      "gui.junjietrafficmod.nextexit_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.fwq_21_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.expwy_export_report_edit.label_exit_number": "出口编号",
+      "block.junjietrafficmod.sid_ebarrier": "半封闭声屏障信息（悬臂型）",
+      "gui.junjietrafficmod.exit_nedit.label_export_name": "出口名称",
+      "gui.junjietrafficmod.interchange_edit.inter1km": "",
+      "gui.junjietrafficmod.exitplacereport.placeapinyin": "",
+      "gui.junjietrafficmod.service_area_edit.pinyin": "",
+      "gui.junjietrafficmod.cross_edit.label_straightroad_distance": "直行通向道路距离",
+      "gui.junjietrafficmod.gantry_speed_limit.label_minimum_speed": "最低限速",
+      "gui.junjietrafficmod.mileage_edit.label_road_number": "道路编号",
+      "block.junjietrafficmod.exit_500m": "出口预告下500m",
+      "gui.junjietrafficmod.cross_edit.label_straight_lead_road": "直行通向道路名称",
+      "gui.junjietrafficmod.gantry_speed_limit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.gantry_expwy_s_edit.expwynumber": "",
+      "gui.junjietrafficmod.tunnel_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.intergoing_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.gantry_expwy_snumber": "省级高速公路起点编号（龙门架）",
+      "gui.junjietrafficmod.exit_number_edit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.fwq_22_edit.label_start_end": "",
+      "gui.junjietrafficmod.cross_edit.label_service_area_name": "服务区名称",
+      "gui.junjietrafficmod.exit_nedit.button_edit": "保存更改",
+      "gui.junjietrafficmod.cross_edit.leftroadpinyin": "",
+      "block.junjietrafficmod.gantry_pile_number": "龙门架桩号",
+      "block.junjietrafficmod.limit_emergency": "应急车道限速（龙门架版）",
+      "gui.junjietrafficmod.exit_nedit.exportname": "",
+      "block.junjietrafficmod.sidekeepspace": "保持车距（悬臂式）",
+      "gui.junjietrafficmod.bridge_edit.length": "",
+      "block.junjietrafficmod.carmodellimit_addon": "分车型限速（附加-全程限速）",
+      "block.junjietrafficmod.gantry_expwy_end": "高速公路终点（龙门架）",
+      "gui.junjietrafficmod.expwy_gedit.label_sign_text_edit": "标志牌文本编辑",
+      "block.junjietrafficmod.gantry_pillar_top": "龙门架顶横杆",
+      "gui.junjietrafficmod.fwq_22_edit.stardandend": "",
+      "gui.junjietrafficmod.expwy_entrance_2.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.mileage_edit.label_road_nameroad_number": "道路名称\u0026道路编号",
+      "gui.junjietrafficmod.cross_edit.rightroadpinyin": "",
+      "gui.junjietrafficmod.tunnel_edit.label_tunnel_name": "隧道名称",
+      "gui.junjietrafficmod.exitplacereport.label_survice_area_name": "服务区名称",
+      "gui.junjietrafficmod.expwy_sedit.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.fwq_21_edit.label_service_area_name": "服务区名称",
+      "block.junjietrafficmod.tlight_l_2": "交通灯左2",
+      "block.junjietrafficmod.exit_number_show": "出口编号提醒",
+      "block.junjietrafficmod.tlight_l_1": "交通灯左1",
+      "block.junjietrafficmod.tlight_l_3": "交通灯左3",
+      "gui.junjietrafficmod.cross_edit.fwqdistance": "",
+      "gui.junjietrafficmod.expwy_sedit.firstline": "",
+      "gui.junjietrafficmod.expwy_export_report_edit.expwynumber": "",
+      "gui.junjietrafficmod.cross_edit.label_name_of_the_road": "当前道路名称",
+      "gui.junjietrafficmod.intergoing_edit.label_first_line": "第一行",
+      "gui.junjietrafficmod.strict_road_edit.label_road_name": "道路名称",
+      "gui.junjietrafficmod.place_report.distancea": "",
+      "gui.junjietrafficmod.place_report.distanceb": "",
+      "gui.junjietrafficmod.place_report.distancec": "",
+      "gui.junjietrafficmod.strict_road_edit.label_road_section": "道路区间",
+      "gui.junjietrafficmod.interchange_info_edit.button_edit": "保存更改",
+      "gui.junjietrafficmod.expwy_entrance_2.gantrypilenumber": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_b": "地点B",
+      "gui.junjietrafficmod.nextexit_edit.exportname": "",
+      "gui.junjietrafficmod.exitplacereport.label_place_a": "地点A",
+      "gui.junjietrafficmod.expwy_entrance_s_1.label_sign_text_edit": "标志牌文本编辑",
+      "gui.junjietrafficmod.cross_edit.nameoftheroad": "",
+      "block.junjietrafficmod.bassblue": "蓝色竖杆底座",
+      "block.junjietrafficmod.horkeep_30": "车距确认30格",
+      "gui.junjietrafficmod.barrier_edit.button_edit": "保存更改",
+      "block.junjietrafficmod.pillarblue": "蓝色竖杆",
+      "gui.junjietrafficmod.expwy_entrance_2.stardandend": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tlight",
+        "children": []
+      },
+      {
+        "name": "Pillar",
+        "children": []
+      },
+      {
+        "name": "Sign",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "ExitSign",
+        "children": []
+      },
+      {
+        "name": "RoadNumberSign",
+        "children": []
+      },
+      {
+        "name": "GantrySign",
+        "children": []
+      },
+      {
+        "name": "EntranceSign",
+        "children": []
+      },
+      {
+        "name": "v1.0.2update",
+        "children": [
+          {
+            "name": "interchangereport",
+            "children": []
+          },
+          {
+            "name": "arrow",
+            "children": []
+          },
+          {
+            "name": "ExpwyBeginEnd",
+            "children": []
+          },
+          {
+            "name": "HOR",
+            "children": []
+          },
+          {
+            "name": "Side",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "v1.0.3update",
+        "children": [
+          {
+            "name": "Cross",
+            "children": []
+          },
+          {
+            "name": "ExpwyTip",
+            "children": []
+          },
+          {
+            "name": "waterprotect",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          },
+          {
+            "name": "ExitGoing",
+            "children": []
+          },
+          {
+            "name": "GantryInterchange",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "junjietrafficmod",
+    "modName": "Junjie的交通模组",
+    "version": "1.0.3",
+    "description": "中国式交通标志牌模组，由Bilibili的JunZulaki制作",
+    "author": "JunZulaki（可前往Bilibili搜索）, MCreator",
+    "websiteURL": "https://space.bilibili.com/3493092063709904",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "mo_zu_tu_biao_",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "JunZulaki制作。模组使用工具MCreator制作（Created using mod maker MCreator） - https://mcreator.net/about",
+    "modElementsPackage": "mcscjunjie.junzulaki.trafficmod"
+  },
+  "mcreatorVersion": 202400118518
+}

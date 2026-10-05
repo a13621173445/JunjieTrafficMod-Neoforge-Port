@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "middleup": "middleup"
+      },
+      "name": "default"
+    }
+  }
+}

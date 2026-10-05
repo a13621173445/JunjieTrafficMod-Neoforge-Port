@@ -1,0 +1,205 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 250,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 21
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 97,
+          "y": 200
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placea",
+          "width": 112,
+          "height": 20,
+          "x": 97,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_a",
+          "text": {
+            "fixedValue": "Place A"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_b",
+          "text": {
+            "fixedValue": "Place B"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 95
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placebname",
+          "width": 112,
+          "height": 20,
+          "x": 97,
+          "y": 113
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_c",
+          "text": {
+            "fixedValue": "Place C"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 147
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placecname",
+          "width": 112,
+          "height": 20,
+          "x": 97,
+          "y": 165
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_distance",
+          "text": {
+            "fixedValue": "Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 218,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_distance1",
+          "text": {
+            "fixedValue": "Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 218,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_distance2",
+          "text": {
+            "fixedValue": "Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 218,
+          "y": 148
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distancea",
+          "width": 112,
+          "height": 20,
+          "x": 218,
+          "y": 61
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distanceb",
+          "width": 111,
+          "height": 20,
+          "x": 218,
+          "y": 113
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distancec",
+          "width": 111,
+          "height": 20,
+          "x": 217,
+          "y": 165
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": false
+    }
+  }
+}

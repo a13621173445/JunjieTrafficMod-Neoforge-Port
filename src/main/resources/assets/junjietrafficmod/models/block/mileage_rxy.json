@@ -1,0 +1,10 @@
+{
+  "parent": "junjietrafficmod:custom/mileagerxy",
+  "textures": {
+    "all": "junjietrafficmod:block/gunmu",
+    "particle": "junjietrafficmod:block/middlehold",
+    "pillarwhite": "junjietrafficmod:block/pillarwhite",
+    "mileagerxy": "junjietrafficmod:block/mileagerxy"
+  },
+  "render_type": "cutout_mipped"
+}

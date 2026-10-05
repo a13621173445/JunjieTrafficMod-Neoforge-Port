@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "leftarrow": "leftarrow",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

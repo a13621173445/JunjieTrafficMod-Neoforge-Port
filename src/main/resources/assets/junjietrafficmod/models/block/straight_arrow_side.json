@@ -1,0 +1,11 @@
+{
+  "parent": "junjietrafficmod:custom/straightarrowside",
+  "textures": {
+    "all": "junjietrafficmod:block/gunmu",
+    "particle": "junjietrafficmod:block/middlehold",
+    "pillarwhite": "junjietrafficmod:block/pillarwhite",
+    "straightarrow": "junjietrafficmod:block/straightarrow",
+    "guding": "junjietrafficmod:block/guding"
+  },
+  "render_type": "cutout_mipped"
+}

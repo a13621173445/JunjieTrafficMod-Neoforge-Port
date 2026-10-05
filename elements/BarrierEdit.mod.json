@@ -1,0 +1,75 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 99,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 135,
+          "y": 141
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "length",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_length",
+          "text": {
+            "fixedValue": "Length"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 96
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": false
+    }
+  }
+}

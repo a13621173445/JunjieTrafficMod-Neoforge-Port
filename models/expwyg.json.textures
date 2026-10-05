@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "expwyg": "expwyg",
+        "pillarwhite": "pillarwhite",
+        "side": "side",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

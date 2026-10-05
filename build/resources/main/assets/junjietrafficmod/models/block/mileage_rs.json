@@ -1,0 +1,10 @@
+{
+  "parent": "junjietrafficmod:custom/mileagers",
+  "textures": {
+    "all": "junjietrafficmod:block/gunmu",
+    "particle": "junjietrafficmod:block/middlehold",
+    "pillarwhite": "junjietrafficmod:block/pillarwhite",
+    "mileagers": "junjietrafficmod:block/mileagers"
+  },
+  "render_type": "cutout_mipped"
+}

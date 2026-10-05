@@ -1,0 +1,9 @@
+{
+  "parent": "junjietrafficmod:custom/pillarwhite",
+  "textures": {
+    "all": "junjietrafficmod:block/gunmu",
+    "particle": "junjietrafficmod:block/middlehold",
+    "pillarwhite": "junjietrafficmod:block/pillarwhite"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "hordrivetiredly": "hordrivetiredly",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

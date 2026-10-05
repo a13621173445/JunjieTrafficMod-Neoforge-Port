@@ -1,0 +1,140 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package mcscjunjie.junzulaki.trafficmod.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.Block;
+
+import mcscjunjie.junzulaki.trafficmod.block.entity.StrictRoadBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.StrictRoad2BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ServiceAreaEntranceBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEtunnelBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEexitnumberBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEcross4BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEcross3BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEcross2BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEcross1BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.SIDEbarrierBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadXYBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadSideXYBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadSideSBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadSideGBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadSBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadGBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadExitStraightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.RoadExitRightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.NextexitBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.MileageRXYBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.MileageRSBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.MileageRNBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.MileageRGBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.MileageRBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.LimitTruckBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.LimitCarBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.InterchangeB2BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.InterchangeB1BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.InterchangeA2BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.InterchangeA1BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.Interchange2kmBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.Interchange1kmBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.HORplacereportBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantrySInterStraightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantrySInterRightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantrySInterLeftBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryPileNumberBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryGInterStraightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryGInterRightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryGInterLeftBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryExpwySnumberBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.GantryExpwyGnumberBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.Fwq22BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.Fwq21BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExpwySBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExpwyGBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExpwyExitStraightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExpwyExitRightBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitxyBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitsBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitreportBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitrBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitnBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitgBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.ExitNumberShowBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.EntranceE2BlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.EntranceE1SBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.EntranceE1GBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.block.entity.BridgeBlockEntity;
+import mcscjunjie.junzulaki.trafficmod.JunjietrafficmodMod;
+
+public class JunjietrafficmodModBlockEntities {
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, JunjietrafficmodMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_2KM = register("interchange_2km", JunjietrafficmodModBlocks.INTERCHANGE_2KM, Interchange2kmBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_1KM = register("interchange_1km", JunjietrafficmodModBlocks.INTERCHANGE_1KM, Interchange1kmBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITG = register("exitg", JunjietrafficmodModBlocks.EXITG, ExitgBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITS = register("exits", JunjietrafficmodModBlocks.EXITS, ExitsBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITXY = register("exitxy", JunjietrafficmodModBlocks.EXITXY, ExitxyBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITR = register("exitr", JunjietrafficmodModBlocks.EXITR, ExitrBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITN = register("exitn", JunjietrafficmodModBlocks.EXITN, ExitnBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_G = register("road_g", JunjietrafficmodModBlocks.ROAD_G, RoadGBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_S = register("road_s", JunjietrafficmodModBlocks.ROAD_S, RoadSBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_XY = register("road_xy", JunjietrafficmodModBlocks.ROAD_XY, RoadXYBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_SIDE_G = register("road_side_g", JunjietrafficmodModBlocks.ROAD_SIDE_G, RoadSideGBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_SIDE_S = register("road_side_s", JunjietrafficmodModBlocks.ROAD_SIDE_S, RoadSideSBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_SIDE_XY = register("road_side_xy", JunjietrafficmodModBlocks.ROAD_SIDE_XY, RoadSideXYBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXPWY_G = register("expwy_g", JunjietrafficmodModBlocks.EXPWY_G, ExpwyGBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXPWY_S = register("expwy_s", JunjietrafficmodModBlocks.EXPWY_S, ExpwySBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MILEAGE_R = register("mileage_r", JunjietrafficmodModBlocks.MILEAGE_R, MileageRBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MILEAGE_RG = register("mileage_rg", JunjietrafficmodModBlocks.MILEAGE_RG, MileageRGBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MILEAGE_RS = register("mileage_rs", JunjietrafficmodModBlocks.MILEAGE_RS, MileageRSBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MILEAGE_RXY = register("mileage_rxy", JunjietrafficmodModBlocks.MILEAGE_RXY, MileageRXYBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MILEAGE_RN = register("mileage_rn", JunjietrafficmodModBlocks.MILEAGE_RN, MileageRNBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LIMIT_CAR = register("limit_car", JunjietrafficmodModBlocks.LIMIT_CAR, LimitCarBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LIMIT_TRUCK = register("limit_truck", JunjietrafficmodModBlocks.LIMIT_TRUCK, LimitTruckBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_PILE_NUMBER = register("gantry_pile_number", JunjietrafficmodModBlocks.GANTRY_PILE_NUMBER, GantryPileNumberBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENTRANCE_E_1_G = register("entrance_e_1_g", JunjietrafficmodModBlocks.ENTRANCE_E_1_G, EntranceE1GBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENTRANCE_E_1_S = register("entrance_e_1_s", JunjietrafficmodModBlocks.ENTRANCE_E_1_S, EntranceE1SBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENTRANCE_E_2 = register("entrance_e_2", JunjietrafficmodModBlocks.ENTRANCE_E_2, EntranceE2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FWQ_21 = register("fwq_21", JunjietrafficmodModBlocks.FWQ_21, Fwq21BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FWQ_22 = register("fwq_22", JunjietrafficmodModBlocks.FWQ_22, Fwq22BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_EXPWY_GNUMBER = register("gantry_expwy_gnumber", JunjietrafficmodModBlocks.GANTRY_EXPWY_GNUMBER, GantryExpwyGnumberBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_EXPWY_SNUMBER = register("gantry_expwy_snumber", JunjietrafficmodModBlocks.GANTRY_EXPWY_SNUMBER, GantryExpwySnumberBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_A_1 = register("interchange_a_1", JunjietrafficmodModBlocks.INTERCHANGE_A_1, InterchangeA1BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_A_2 = register("interchange_a_2", JunjietrafficmodModBlocks.INTERCHANGE_A_2, InterchangeA2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_B_1 = register("interchange_b_1", JunjietrafficmodModBlocks.INTERCHANGE_B_1, InterchangeB1BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> INTERCHANGE_B_2 = register("interchange_b_2", JunjietrafficmodModBlocks.INTERCHANGE_B_2, InterchangeB2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> HO_RPLACEREPORT = register("ho_rplacereport", JunjietrafficmodModBlocks.HO_RPLACEREPORT, HORplacereportBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRICT_ROAD = register("strict_road", JunjietrafficmodModBlocks.STRICT_ROAD, StrictRoadBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_ECROSS_1 = register("sid_ecross_1", JunjietrafficmodModBlocks.SID_ECROSS_1, SIDEcross1BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_ECROSS_2 = register("sid_ecross_2", JunjietrafficmodModBlocks.SID_ECROSS_2, SIDEcross2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_ECROSS_3 = register("sid_ecross_3", JunjietrafficmodModBlocks.SID_ECROSS_3, SIDEcross3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_ECROSS_4 = register("sid_ecross_4", JunjietrafficmodModBlocks.SID_ECROSS_4, SIDEcross4BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_EBARRIER = register("sid_ebarrier", JunjietrafficmodModBlocks.SID_EBARRIER, SIDEbarrierBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_ETUNNEL = register("sid_etunnel", JunjietrafficmodModBlocks.SID_ETUNNEL, SIDEtunnelBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SID_EEXITNUMBER = register("sid_eexitnumber", JunjietrafficmodModBlocks.SID_EEXITNUMBER, SIDEexitnumberBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BRIDGE = register("bridge", JunjietrafficmodModBlocks.BRIDGE, BridgeBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXITREPORT = register("exitreport", JunjietrafficmodModBlocks.EXITREPORT, ExitreportBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> NEXTEXIT = register("nextexit", JunjietrafficmodModBlocks.NEXTEXIT, NextexitBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STRICT_ROAD_2 = register("strict_road_2", JunjietrafficmodModBlocks.STRICT_ROAD_2, StrictRoad2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SERVICE_AREA_ENTRANCE = register("service_area_entrance", JunjietrafficmodModBlocks.SERVICE_AREA_ENTRANCE, ServiceAreaEntranceBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXIT_NUMBER_SHOW = register("exit_number_show", JunjietrafficmodModBlocks.EXIT_NUMBER_SHOW, ExitNumberShowBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXPWY_EXIT_STRAIGHT = register("expwy_exit_straight", JunjietrafficmodModBlocks.EXPWY_EXIT_STRAIGHT, ExpwyExitStraightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXPWY_EXIT_RIGHT = register("expwy_exit_right", JunjietrafficmodModBlocks.EXPWY_EXIT_RIGHT, ExpwyExitRightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_EXIT_STRAIGHT = register("road_exit_straight", JunjietrafficmodModBlocks.ROAD_EXIT_STRAIGHT, RoadExitStraightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ROAD_EXIT_RIGHT = register("road_exit_right", JunjietrafficmodModBlocks.ROAD_EXIT_RIGHT, RoadExitRightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_G_INTER_STRAIGHT = register("gantry_g_inter_straight", JunjietrafficmodModBlocks.GANTRY_G_INTER_STRAIGHT, GantryGInterStraightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_G_INTER_RIGHT = register("gantry_g_inter_right", JunjietrafficmodModBlocks.GANTRY_G_INTER_RIGHT, GantryGInterRightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_G_INTER_LEFT = register("gantry_g_inter_left", JunjietrafficmodModBlocks.GANTRY_G_INTER_LEFT, GantryGInterLeftBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_S_INTER_STRAIGHT = register("gantry_s_inter_straight", JunjietrafficmodModBlocks.GANTRY_S_INTER_STRAIGHT, GantrySInterStraightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_S_INTER_RIGHT = register("gantry_s_inter_right", JunjietrafficmodModBlocks.GANTRY_S_INTER_RIGHT, GantrySInterRightBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GANTRY_S_INTER_LEFT = register("gantry_s_inter_left", JunjietrafficmodModBlocks.GANTRY_S_INTER_LEFT, GantrySInterLeftBlockEntity::new);
+
+	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
+		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
+	}
+}

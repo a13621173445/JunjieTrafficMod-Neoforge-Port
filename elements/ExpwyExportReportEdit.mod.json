@@ -1,0 +1,271 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 315,
+    "height": 199,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 66,
+          "y": 29
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 66,
+          "y": 191
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_exit_number",
+          "text": {
+            "fixedValue": "Exit number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 66,
+          "y": 92
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exitnumber1",
+          "width": 63,
+          "height": 20,
+          "x": 66,
+          "y": 110
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exitnumber2",
+          "width": 63,
+          "height": 20,
+          "x": 66,
+          "y": 137
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exitnumber3",
+          "width": 63,
+          "height": 20,
+          "x": 66,
+          "y": 164
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_export_name",
+          "text": {
+            "fixedValue": "Export name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 147,
+          "y": 92
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exportname1",
+          "width": 126,
+          "height": 20,
+          "x": 147,
+          "y": 110
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exportname2",
+          "width": 126,
+          "height": 20,
+          "x": 147,
+          "y": 137
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exportname3",
+          "width": 126,
+          "height": 20,
+          "x": 147,
+          "y": 164
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_distance",
+          "text": {
+            "fixedValue": "Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 291,
+          "y": 92
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distance1",
+          "width": 72,
+          "height": 20,
+          "x": 291,
+          "y": 110
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distance2",
+          "width": 72,
+          "height": 20,
+          "x": 291,
+          "y": 137
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distance3",
+          "width": 72,
+          "height": 20,
+          "x": 291,
+          "y": 164
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_number",
+          "text": {
+            "fixedValue": "Expwy number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 66,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_name",
+          "text": {
+            "fixedValue": "Expwy name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 237,
+          "y": 47
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "expwynumber",
+          "width": 63,
+          "height": 20,
+          "x": 66,
+          "y": 65
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "branchnumber",
+          "width": 72,
+          "height": 20,
+          "x": 147,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_branch_number",
+          "text": {
+            "fixedValue": "Branch number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 147,
+          "y": 47
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "expwyname",
+          "width": 126,
+          "height": 20,
+          "x": 237,
+          "y": 65
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 22,
+      "oy": 2,
+      "snapOnGrid": true
+    }
+  }
+}

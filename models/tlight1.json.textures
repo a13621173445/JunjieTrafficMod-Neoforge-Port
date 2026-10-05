@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "middlehold": "middlehold",
+        "jiazi": "jiazi"
+      },
+      "name": "default"
+    }
+  }
+}

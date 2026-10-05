@@ -1,0 +1,127 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 22
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 135,
+          "y": 199
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exporta",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 107
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "straight",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_straight",
+          "text": {
+            "fixedValue": "Straight"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_export_a",
+          "text": {
+            "fixedValue": "Export A"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_export_b",
+          "text": {
+            "fixedValue": "Export B"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 138
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "exportb",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 157
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": false
+    }
+  }
+}

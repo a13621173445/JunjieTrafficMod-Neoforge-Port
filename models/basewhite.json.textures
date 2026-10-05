@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "basewhite": "basewhite",
+        "luosi": "luosi",
+        "zhicheng": "zhicheng",
+        "dizuo": "dizuo"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "roadnumberxy": "roadnumberxy",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

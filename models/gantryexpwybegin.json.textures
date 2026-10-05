@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "expwybegin": "expwybegin"
+      },
+      "name": "default"
+    }
+  }
+}

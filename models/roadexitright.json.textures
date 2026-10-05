@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "roadexitright": "roadexitright",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

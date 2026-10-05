@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "guo3noout": "guo3noout"
+      },
+      "name": "default"
+    }
+  }
+}

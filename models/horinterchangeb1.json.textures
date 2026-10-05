@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "side": "side",
+        "interchangeb1": "interchangeb1",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

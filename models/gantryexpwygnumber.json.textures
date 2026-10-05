@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gantryexpwygnumber": "gantryexpwygnumber"
+      },
+      "name": "default"
+    }
+  }
+}

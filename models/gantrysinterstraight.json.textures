@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gantrysinterstraight": "gantrysinterstraight"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "exitxy": "exitxy",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

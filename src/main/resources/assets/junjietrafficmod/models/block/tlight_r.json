@@ -1,0 +1,9 @@
+{
+  "parent": "junjietrafficmod:custom/tlightr",
+  "textures": {
+    "all": "junjietrafficmod:block/gunmu",
+    "particle": "junjietrafficmod:block/middlehold",
+    "jiazi": "junjietrafficmod:block/jiazi"
+  },
+  "render_type": "cutout_mipped"
+}

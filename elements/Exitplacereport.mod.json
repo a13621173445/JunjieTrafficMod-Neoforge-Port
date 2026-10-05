@@ -1,0 +1,153 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 250,
+    "height": 156,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 52
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 100,
+          "y": 169
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placebname",
+          "width": 108,
+          "height": 20,
+          "x": 100,
+          "y": 133
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placeaname",
+          "width": 108,
+          "height": 20,
+          "x": 100,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_a",
+          "text": {
+            "fixedValue": "Place A"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_b",
+          "text": {
+            "fixedValue": "Place B"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_a_pinyin",
+          "text": {
+            "fixedValue": "Place A Pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 220,
+          "y": 70
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placeapinyin",
+          "width": 108,
+          "height": 20,
+          "x": 220,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_b_pinyin",
+          "text": {
+            "fixedValue": "Place B Pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 220,
+          "y": 115
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "placebpinyin",
+          "width": 108,
+          "height": 20,
+          "x": 220,
+          "y": 133
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 25,
+      "oy": 12,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "side": "side",
+        "placereport": "placereport",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

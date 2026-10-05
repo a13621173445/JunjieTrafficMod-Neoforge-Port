@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "luosi": "luosi",
+        "zhicheng": "zhicheng",
+        "pillarblue": "pillarblue",
+        "dizuo": "dizuo"
+      },
+      "name": "default"
+    }
+  }
+}

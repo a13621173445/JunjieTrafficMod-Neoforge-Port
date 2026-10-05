@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "guding": "guding",
+        "nextexit": "nextexit"
+      },
+      "name": "default"
+    }
+  }
+}

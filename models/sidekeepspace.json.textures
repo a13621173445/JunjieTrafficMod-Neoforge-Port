@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "horkeepspace": "horkeepspace",
+        "pillarwhite": "pillarwhite",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

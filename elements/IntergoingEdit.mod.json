@@ -1,0 +1,205 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 214,
+    "height": 195,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 116,
+          "y": 193
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "expwynumber",
+          "width": 90,
+          "height": 20,
+          "x": 116,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_number",
+          "text": {
+            "fixedValue": "Expwy number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 49
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "province",
+          "width": 90,
+          "height": 20,
+          "x": 224,
+          "y": 67
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "direction",
+          "width": 90,
+          "height": 20,
+          "x": 116,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_direction",
+          "text": {
+            "fixedValue": "Direction"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_distance",
+          "text": {
+            "fixedValue": "Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 224,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_province",
+          "text": {
+            "fixedValue": "Province"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 224,
+          "y": 49
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "distance",
+          "width": 90,
+          "height": 20,
+          "x": 224,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_first_line",
+          "text": {
+            "fixedValue": "First line"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_second_line",
+          "text": {
+            "fixedValue": "Second line"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 224,
+          "y": 139
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "firstline",
+          "width": 90,
+          "height": 20,
+          "x": 116,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "secondline",
+          "width": 90,
+          "height": 20,
+          "x": 224,
+          "y": 157
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 7,
+      "snapOnGrid": true
+    }
+  }
+}

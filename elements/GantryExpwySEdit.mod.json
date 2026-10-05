@@ -1,0 +1,127 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 21
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 135,
+          "y": 196
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "expwyname",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 103
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "expwynumber",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_number",
+          "text": {
+            "fixedValue": "Expwy Number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_name",
+          "text": {
+            "fixedValue": "Expwy Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_province",
+          "text": {
+            "fixedValue": "Province"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 134
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "province",
+          "width": 157,
+          "height": 20,
+          "x": 135,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": false
+    }
+  }
+}

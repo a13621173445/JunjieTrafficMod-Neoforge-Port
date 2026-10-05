@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "waterprotect4": "waterprotect4",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

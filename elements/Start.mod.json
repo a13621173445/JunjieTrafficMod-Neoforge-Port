@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"212\" y=\"108\"><field name=\"trigger\">player_log_in</field></block><block type=\"entity_send_chat\" x=\"210\" y=\"221\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">§6[JunjieTrafficmod]§3欢迎游玩§6Junjie的交通模组§3awa，作者为§2§lJunZulaki§3；本模组目前还处于初步开发阶段，如有建议可以加入我们的QQ交流群：§2§l625346076。</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><next><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">§6[JunjieTrafficmod]§3为了保证字体位置显示正常，您可以在语言选项中关闭\"§a强制使用Unicode字符§3\"。</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></xml>"
+  }
+}

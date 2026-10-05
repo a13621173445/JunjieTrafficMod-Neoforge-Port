@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "exit2km": "exit2km",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

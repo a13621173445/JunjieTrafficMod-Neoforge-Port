@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "truckright": "truckright",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

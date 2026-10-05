@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gantrysinterleft": "gantrysinterleft"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 22
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 133,
+          "y": 202
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "地名1",
+          "name": "firstline",
+          "width": 162,
+          "height": 20,
+          "x": 133,
+          "y": 58
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "地名2",
+          "name": "secondline",
+          "width": 162,
+          "height": 20,
+          "x": 133,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_number",
+          "text": {
+            "fixedValue": "Expwy Number"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_expwy_name",
+          "text": {
+            "fixedValue": "Expwy Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_province",
+          "text": {
+            "fixedValue": "Province"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 148
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "province",
+          "width": 162,
+          "height": 20,
+          "x": 133,
+          "y": 166
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 19,
+      "sy": 18,
+      "ox": 18,
+      "oy": 6,
+      "snapOnGrid": true
+    }
+  }
+}

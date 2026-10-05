@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "carmodellimitpart1": "carmodellimitpart1",
+        "pillarwhite": "pillarwhite",
+        "side": "side",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

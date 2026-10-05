@@ -1,0 +1,335 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 378,
+    "height": 193,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 35,
+          "y": 193
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name_of_the_road",
+          "text": {
+            "fixedValue": "Name of the road"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 110,
+          "y": 198
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "nameoftheroad",
+          "width": 54,
+          "height": 20,
+          "x": 197,
+          "y": 193
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_left_lead_road",
+          "text": {
+            "fixedValue": "Left lead road"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 49
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "leftleadroad",
+          "width": 117,
+          "height": 20,
+          "x": 35,
+          "y": 67
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "leftroadpinyin",
+          "width": 117,
+          "height": 20,
+          "x": 161,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_leftroad_distance",
+          "text": {
+            "fixedValue": "Leftroad Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 287,
+          "y": 49
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "leftroaddistance",
+          "width": 108,
+          "height": 20,
+          "x": 287,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_straight_lead_road",
+          "text": {
+            "fixedValue": "Straight lead road"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_straightroad_pinyin",
+          "text": {
+            "fixedValue": "Straightroad pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_leftroad_pinyin",
+          "text": {
+            "fixedValue": "Leftroad pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_straightroad_distance",
+          "text": {
+            "fixedValue": "Straightroad Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 287,
+          "y": 94
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "straightroaddistance",
+          "width": 108,
+          "height": 20,
+          "x": 287,
+          "y": 112
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "straightleadroad",
+          "width": 117,
+          "height": 20,
+          "x": 35,
+          "y": 112
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "straightroadpinyin",
+          "width": 117,
+          "height": 20,
+          "x": 161,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_right_lead_road",
+          "text": {
+            "fixedValue": "Right lead road"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 139
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "rightleadroad",
+          "width": 117,
+          "height": 20,
+          "x": 35,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "rightroadpinyin",
+          "width": 117,
+          "height": 20,
+          "x": 161,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "rightroaddistance",
+          "width": 108,
+          "height": 20,
+          "x": 287,
+          "y": 157
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rightroad_distance",
+          "text": {
+            "fixedValue": "Rightroad Distance"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 287,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rightroad_pinyin",
+          "text": {
+            "fixedValue": "Rightroad pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_direction",
+          "text": {
+            "fixedValue": "Direction"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 261,
+          "y": 197
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "direction",
+          "width": 54,
+          "height": 20,
+          "x": 311,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": false
+    }
+  }
+}

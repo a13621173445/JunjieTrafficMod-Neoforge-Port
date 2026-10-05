@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "strictroad2": "strictroad2",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

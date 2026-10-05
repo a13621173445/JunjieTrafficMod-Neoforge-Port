@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "entrancee3500m": "entrancee3500m",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

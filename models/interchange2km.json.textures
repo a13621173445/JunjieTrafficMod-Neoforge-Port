@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "side": "side",
+        "interchange2km": "interchange2km",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

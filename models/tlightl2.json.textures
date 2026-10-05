@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "straighttest": "straighttest",
+        "jiazi": "jiazi"
+      },
+      "name": "default"
+    }
+  }
+}

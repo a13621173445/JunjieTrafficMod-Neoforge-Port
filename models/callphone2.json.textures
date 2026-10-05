@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "callphone2": "callphone2",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

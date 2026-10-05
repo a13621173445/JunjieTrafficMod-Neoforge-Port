@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "landslide": "landslide",
+        "guding": "guding"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cross6": "103cross6"
+      },
+      "name": "default"
+    }
+  }
+}

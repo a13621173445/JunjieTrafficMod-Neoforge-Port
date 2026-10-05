@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pillarwhite": "pillarwhite",
+        "mileagers": "mileagers"
+      },
+      "name": "default"
+    }
+  }
+}

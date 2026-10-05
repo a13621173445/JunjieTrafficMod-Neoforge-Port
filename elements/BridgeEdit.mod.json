@@ -1,0 +1,127 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 195,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_text_edit",
+          "text": {
+            "fixedValue": "Sign text edit"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_edit",
+          "text": "Save change",
+          "isUndecorated": false,
+          "width": 73,
+          "height": 20,
+          "x": 134,
+          "y": 184
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "pinyin",
+          "width": 162,
+          "height": 20,
+          "x": 134,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pinyin",
+          "text": {
+            "fixedValue": "Pinyin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bridge_name",
+          "text": {
+            "fixedValue": "Bridge Name"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_length",
+          "text": {
+            "fixedValue": "Length"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 139
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "length",
+          "width": 162,
+          "height": 20,
+          "x": 134,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "bridgename",
+          "width": 162,
+          "height": 20,
+          "x": 134,
+          "y": 67
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 6,
+      "snapOnGrid": true
+    }
+  }
+}
